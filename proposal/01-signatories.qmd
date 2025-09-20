@@ -9,7 +9,12 @@ An optional section would be for R-Core signatories where changes to R
 are proposed.
 -->
 
+Simon Couch, Posit.
+
 ## Project team
+
+Nic Crane
+
 <!--
 Who are the people responsible for actually delivering the project if
 the proposal gets accepted and are already signed up and rearing to
