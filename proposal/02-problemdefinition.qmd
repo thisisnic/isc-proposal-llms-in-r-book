@@ -4,21 +4,10 @@ bibliography: references.bib
 
 # The Problem
 
-```{=html}
-<!--
-Outlining the issue / weak point / problem to be solved by this
-proposal. This should be a compelling section that sets the reader up
-for the next section - the proposed solution!
+Large language models (LLMs) and AI are rapidly reshaping how data scientists and other users of analytical software work, but for R users, guidance on effective use of these tools is fragmented. Blog posts, package vignettes, and community discussions contain excellent advice, but it is scattered across platforms.  More generic guidance is often targeted more at software engineers than applied data analysts.
 
-It is important to cover:
+This fragmentation means that users must piece together knowledge from multiple sources with no obvious place to start and risk misapplying methods.  The problem exists for R users including data scientists, analysts, and educators who want to integrate LLMs into analysis, teaching, and tooling. 
 
- - [ ] What the problem is
- - [ ] Who it affects
- - [ ] Why is it a problem
- - [ ] What will solving the problem enable (why should it be solved)
- - [ ] Brief summary of existing work and previous attempts (e.g., relevant R packages)
- - [ ] If proposing changes to R itself: letter of support from R Core member
--->
-```
+Solving this problem by consolidating best practices and tools into a single structured resource will give R users a reliable foundation for experimenting with LLMs and strengthen R's position as a platform for responsible, reproducible AI.
 
-An example in-text citation [@wickham2016].
+Due to the speed at which things are moving in LLMs/AI, it's unlikely that this kind of book would be a good candidate for a permanent, static reference. Instead, the value lies in creating a living, community-oriented resource that can be updated as packages evolve, new methods emerge, and best practices shift. By structuring it as an open, ongoing work rather than a fixed text, the book can remain relevant to R users navigating a fast-changing landscape while avoiding the obsolescence that traditional publications in this domain are likely to face.
