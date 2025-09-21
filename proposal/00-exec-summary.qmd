@@ -2,7 +2,8 @@
 
 This proposal requests $16,000 USD to bootstrap a free, community-owned online book on LLMs in R. R users face a fast-moving ecosystem where reliable guidance is scattered across package docs, package vignettes, and blog posts. The book will consolidate best practices, examples, and explanations into a single structured, accessible resource.
 
-Over six months (Dec 2025–May 2026), the project will:
+Over six months (Dec 2025 - May 2026), the project will:
+
 - Set up infrastructure (GitHub/Quarto repo, CI/CD, license, domain).
 - Conduct a community survey to refine scope and priorities.
 - Draft and publish at least ten substantive chapters with reproducible code.

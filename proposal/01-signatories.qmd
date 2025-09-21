@@ -9,11 +9,13 @@ An optional section would be for R-Core signatories where changes to R
 are proposed.
 -->
 
-Simon Couch, Posit.
 
 ## Project team
 
-Nic Crane
+Nic Crane is an open source maintainer and holds a PhD in Applied Social Statstics from Lancaster University.  Nic recently co-authored "Scaling Up with R and Apache Arrow", available online at <arrowrbook.com>.  Nic has a passion for teaching, having taught introduction to R workshops to hundreds of learners earlier in their career, developed an online course on package development for Data Camp, and delivered in-person workshops at Posit Conf in 2023 and 2024, with excellent learner feedback on the contents and accessibility of course materials.  
+
+
+Nic is currently working on a private contract to develop a course on machine learning and AI in R.
 
 <!--
 Who are the people responsible for actually delivering the project if
@@ -37,6 +39,6 @@ Who has been given the opportunity to provide feedback on the
 proposal? This should include any R Consortium & ISC members who the
 proposal has been discussed with.
 -->
-
-Initial feedback from Yanina Bellini Saibene
+- Simon Couch, Posit (reviewed initial idea though not completed proposal due to timing constraints).
+- Initial feedback from Yanina Bellini Saibene
 

@@ -6,7 +6,7 @@ Success means delivering a public, freely available book website on LLMs in R th
 
 - A clear outline and scope of the book agreed through community input.
 - At least 10 substantive chapters covering introductory through intermediate use cases.
-- Reproducible code examples and working CI/CD pipeline.
+- Working CI/CD pipeline.
 - An editorial board in place and contribution guidelines published.
 - A governance model and roadmap documented, ensuring the project can continue after the initial period without further direct funding.
 
@@ -16,7 +16,7 @@ Success could be measured in the following key areas:
 
 1. Milestone completion: Each deliverable in the six-milestone plan achieved on schedule.
 2. Content published: At least 10 complete chapters live online by April 2026.
-3. Community engagement: Minimum of 50 survey responses; ≥3 community PRs merged by project end.
+3. Community engagement: Minimum of 100 survey responses; ≥3 community PRs merged by project end.
 4. Governance established: Editorial board of at least 3 members active by May 2026, with review process tested.
 5. Reach/visibility: Website traffic metrics and engagement on announcement posts; at least one R Consortium blog post published and ≥1 conference submission made.
 
@@ -25,7 +25,6 @@ Success could be measured in the following key areas:
 After the funded phase, the book can be extended by:
 
 - Adding new chapters as R packages evolve or new methods emerge.
-- Expanding into advanced topics such as agentic workflows, evaluation frameworks, and integration with other languages/tools.
 - Translating key chapters into other languages to broaden reach.
 - Using the book as a base for workshops, tutorials, or course materials.
 - Maintaining an open contribution model so the community can update, refine, and extend content long term.

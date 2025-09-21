@@ -28,63 +28,82 @@ The intention is to release the contents under a "Creative Commons Zero v1.0 Uni
 
 I will publicise the work by posting about it on LinkedIn, Mastodon, and Bluesky upon realisation of each milestone, and actively encouraging community feedback.  I will also write content to be shared quarterly on the R Consortium blog to ensure wide reach.
 
-While I intend to develop the initial contents myself, once a completed first draft is completed, I'll be opening it up to community contributions.  Clear templates and guidance will be established, and I'll solicit input from members of the community on how to best govern this.
+While I intend to develop the initial contents myself to simplify the process of getting started, once an initial draft is underway and a style guide and contribution format template has been established, I'll be opening it up to community contributions.  Clear templates and guidance will be established, and I'll solicit input from members of the community on how to best govern this.
 
 I also intend to submit a talk to major R conferences like UseR! 2026 on the process of establishing the book and growing a community around it.  I am open to feedback on other relevant avenues too.
 
 ## Budget & funding plan
 
-I would like to request financial support of 16000 USD from the ISC to develop the book materials, and transition the project to a community-owned resource.
+I would like to request financial support of 16080 USD from the ISC to develop the book materials, and transition the project to a community-owned resource.
 
-Dec 31 2025 - Milestone 1: 
-Labor costs: $1,500
+For full transparency, I am about to begin a project involving writing a course on machine learning and AI for modellers in R.  As part of my preparation for this work, I am reviewing resources on LLMs in R, some of which will form the contents for the MVP delivery.  The budget and time estimates below relate only to work done above and beyond this initial preparatory work which will be completed regardless.
+
+### Milestone 1: Initial Setup
+
+Target date: Dec 31 2025
+
+Three-year domain costs: $80
+Labour costs: $1,500
+
 Work and outcomes:
 - GitHub repository created with open license (CC0), Quarto structure, and contribution templates.
 - Domain registered and pointed to GitHub Pages.
 - Community survey completed and results analysed.
 - Initial scope and outline document published.
 - Draft contribution guidelines and templates prepared (not live yet).
+- Initial MVP delivery
 
-Jan 31 2026 - Milestone 2: Introductory chapters published and initial publicity sought
-Labor costs: $2,500
+### Milestone 2: Introductory chapters published and initial publicity sought
+
+Target date: Jan 31 2026 
+
+Labour costs: $2,500
+
 Work and outcomes:
-- At least two foundational chapters drafted and published.
+- At least two foundational chapters fully drafted and published.
 - Project site launched publicly with domain.
 - Publicity campaign run (socials + R Consortium blog post).
 - Invitation for feedback and expressions of interest in joining an editorial board.
 
-Feb 28 2026 - Milestone 3: Major content release 1
-Labor costs: $3,000
+### Milestone 3: Major content release 1
+
+Target date: Feb 28 2026
+
+Labour costs: $3,500
+
 Work and outcomes:
 - 2-3 substantial chapters added
-- Editorial board established (3–5 members) with defined roles.
+- Editorial board established (3–5 members).
 - Contribution guidelines finalised and published.
 - Repository officially open for community PRs.
 - At least 1–2 external contributions merged by milestone date.
 
+### Milestone 4: Major content release 2
 
-Mar 31 2026 - Milestone 4: Major content release 2
-Labor costs: $3,000
-- 2-3 additional chapters drafted
+Target date: Mar 31 2026 
+
+Labour costs: $3,500
+- 2-3 additional chapters drafted.
 - First wave of community contributions reviewed and integrated.
-- Governance model tested (board-led review of PRs).
 - Second publicity push with highlights of community involvement.
 
+### Milestone 5: Full first draft release
 
+Target date: April 30 2026
 
-April 30 2026 - Milestone 5: Full first draft release
-Labor costs: $4,000
+Labour costs: $3,000
+
 Work and outcomes:
-- 2-3 additional chapters drafted
-- Complete version 1 all planned chapters online.
-- Consistency edits across chapters (tone, formatting, terminology).
-- Structured review process (assign chapters to editorial board for feedback).
-- Public announcement of first draft + call for reviewers.
+- 1-2 additional chapters drafted.
+- Complete version 1 of all planned chapters online.
+- Ongoing updates based on community feedback.
 
-May 30 2026 - Milestone 6: Editorial board established and transition to community governance
+### Milestone 6: Editorial board established and transition to community governance
+
+Target date: May 30 2026
+
 Labour costs: $2,000
+
 Work and outcomes:
-- Ongoing updates based on community feedback
-
-
-
+- Ongoing updates based on community feedback.
+- Consistency edits across chapters (tone, formatting, terminology).

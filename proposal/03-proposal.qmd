@@ -6,6 +6,8 @@ My proposal is to write a free online book on LLMs in R.  It will address the pr
 
 The book will prioritise making concepts accessible to readers by employing educational tactics such as using laddering to build complex ideas one piece at a time, avoiding jargon and carefully defining it where necessary, and using metaphors to break ideas down.  The focus would be on avoiding unnecessary complexity while also equipping the reader with the relevant information to learn independently.
 
+The book would take a problem-oriented approach, starting from the kinds of problems R users face when working with LLMs, and then discussing resources and solutions.
+
 This kind of resource is unlikely to be created via the traditional means of publishing a physical book, due to the speed of change in the LLMs/AI space at the moment.  Creating this as an online resource means that there is scope to quickly update content, as new technologies and ideas emerge.
 
 ## Detail
@@ -14,7 +16,7 @@ This kind of resource is unlikely to be created via the traditional means of pub
 
 An initial MVP would include the book repository, the chapter outlines with headings and subheading, and collated resources for each chapter.
 
-As the approach to creating each chapter would be to create the aforementioned outline for each before adding additional content, it should be trivial to deliver such an MVP with minimal effort.
+As the approach to creating each chapter would be to create the aforementioned outline for each before adding additional context, it should be trivial to deliver such an MVP with minimal effort.
 
 ### Architecture
 
@@ -22,9 +24,9 @@ The project will be stored in a public repository on GitHub, using Quarto to cre
 
 ### Assumptions
 
-One assumption is that changes in applications of LLMs won't change so rapidly that the book would need to be entirely rewritten in the near future.  However, I plan to mitigate this risk by keeping content specific enough to provide value, but high-level enough to be allow for flexibility.  For example, while available underlying models and their capabilities are likely to see many changes over time, methods of choosing an appropriate model to work with are less likely to see as much change.
+One assumption is that changes in applications of LLMs won't change so rapidly that the book would need to be entirely rewritten in the near future.  However, I plan to mitigate this risk by keeping content specific enough to provide value, but high-level enough to allow for flexibility.  For example, while available underlying models and their capabilities are likely to see many changes over time, methods of choosing an appropriate model to work with are less likely to see as much change.
 
 ### External dependencies
 
 GitHub Actions to build the book.
-Various R packages for working with LLMs in R
+Various R packages for working with LLMs in R.
