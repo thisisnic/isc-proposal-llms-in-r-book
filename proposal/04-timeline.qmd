@@ -1,57 +1,90 @@
 # Project plan
 
 ## Start-up phase
-<!--
-Covering the planning phase, this section should provide a relatively
-detailed plan of how work will start on the project. This section is
-important because projects need to get up and running quickly.
 
+### Admininstrative tasks
 
- - [ ] Setting up collaboration platform inc. code for contributors etc.
- - [ ] Licence decisions
- - [ ] Reporting framework
--->
+I will complete the following administrative tasks:
+- Creating the project repository on GitHub with appropriate license
+- Setting up the project as a Quarto project which uses GitHub actions to publish the book to GitHub pages
+- Purchasing URL for the project which will point to the published book
 
+### Content planning
+
+In the start-up phase I plan to conduct a detailed review of available resources, and conduct a community survey to identify key topics of most importance to the wider R community.  I will use the outcome of this stage to refine the list of high-level topics.
 
 ## Technical delivery
-<!--
-Covering the actual delivery of the project this section should
-provide at least a high-level description of the implementation.
 
-Including target dates is really important as you need to be committed
-and the ISC need to have a means of tracking delivery
--->
+Dec 31 2025 - Milestone 1: Repo created, contribution guidelines created, scope and outline finalised based on community survey
+Jan 31 2026 - Milestone 2: Introductory chapters published and initial publicity sought
+Feb 28 2026 - Milestone 3: Major content release 1
+Mar 31 2026 - Milestone 4: Major content release 2
+April 30 2026 - Milestone 5: Full first draft release
+May 30 2026 - Milestone 6: Editorial board established and transition to community governance
 
 ## Other aspects
 
-<!--
-How will you ensure that your work is available to the widest number
-of people? Please specify the open-source or creative commons license(s)
-you will use, how you will host your code so that others can contribute,
-and how you will publicize your work. We encourage you to plan content
-to be shared quarterly on the R Consortium blog.
+The intention is to release the contents under a "Creative Commons Zero v1.0 Universal" license.  The project is to be stored on GitHub on a public repository.
 
- - [ ] Announcement post
- - [ ] Delivery blog post
- - [ ] Social media
- - [ ] UseR!
- - [ ] ISC meetings
--->
+I will publicise the work by posting about it on LinkedIn, Mastodon, and Bluesky upon realisation of each milestone, and actively encouraging community feedback.  I will also write content to be shared quarterly on the R Consortium blog to ensure wide reach.
+
+While I intend to develop the initial contents myself, once a completed first draft is completed, I'll be opening it up to community contributions.  Clear templates and guidance will be established, and I'll solicit input from members of the community on how to best govern this.
+
+I also intend to submit a talk to major R conferences like UseR! 2026 on the process of establishing the book and growing a community around it.  I am open to feedback on other relevant avenues too.
 
 ## Budget & funding plan
 
-<!--
-Outline the milestones for development and how much funding will be
-required for each stage (as payments will be tied to project milestone
-completion). Each milestone should specify the work to be done and the
-expected outcomes, providing enough detail for the ISC to understand
-the scope of the project work and assess the likelihood of success.
+I would like to request financial support of 16000 USD from the ISC to develop the book materials, and transition the project to a community-owned resource.
 
-We expect that most of the budget will be allocated
-for labor costs. We do not cover indirect costs. The ISC grants cannot
-cover such things as travel, lodging, food, journal publication fees,
-or personal hardware. Cloud services may be covered if they are specific
-to the project and the project period. The ISC reserves the right to vet
-how funds are used for each project separately. If in doubt, please reach
-out to us.
--->
+Dec 31 2025 - Milestone 1: 
+Labor costs: $1,500
+Work and outcomes:
+- GitHub repository created with open license (CC0), Quarto structure, and contribution templates.
+- Domain registered and pointed to GitHub Pages.
+- Community survey completed and results analysed.
+- Initial scope and outline document published.
+- Draft contribution guidelines and templates prepared (not live yet).
+
+Jan 31 2026 - Milestone 2: Introductory chapters published and initial publicity sought
+Labor costs: $2,500
+Work and outcomes:
+- At least two foundational chapters drafted and published.
+- Project site launched publicly with domain.
+- Publicity campaign run (socials + R Consortium blog post).
+- Invitation for feedback and expressions of interest in joining an editorial board.
+
+Feb 28 2026 - Milestone 3: Major content release 1
+Labor costs: $3,000
+Work and outcomes:
+- 2-3 substantial chapters added
+- Editorial board established (3–5 members) with defined roles.
+- Contribution guidelines finalised and published.
+- Repository officially open for community PRs.
+- At least 1–2 external contributions merged by milestone date.
+
+
+Mar 31 2026 - Milestone 4: Major content release 2
+Labor costs: $3,000
+- 2-3 additional chapters drafted
+- First wave of community contributions reviewed and integrated.
+- Governance model tested (board-led review of PRs).
+- Second publicity push with highlights of community involvement.
+
+
+
+April 30 2026 - Milestone 5: Full first draft release
+Labor costs: $4,000
+Work and outcomes:
+- 2-3 additional chapters drafted
+- Complete version 1 all planned chapters online.
+- Consistency edits across chapters (tone, formatting, terminology).
+- Structured review process (assign chapters to editorial board for feedback).
+- Public announcement of first draft + call for reviewers.
+
+May 30 2026 - Milestone 6: Editorial board established and transition to community governance
+Labour costs: $2,000
+Work and outcomes:
+- Ongoing updates based on community feedback
+
+
+

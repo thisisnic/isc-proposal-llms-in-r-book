@@ -1,6 +1,14 @@
 # Executive Summary
 
-<!--
-This section provides a condensed view of the entire proposal, one page long.
-It should be a comprehensive high-level overview that captures the essence of the proposal, including its goals, methods, expected outcomes, deliverables, and budget.
--->
+This proposal requests $16,000 USD to bootstrap a free, community-owned online book on LLMs in R. R users face a fast-moving ecosystem where reliable guidance is scattered across package docs, package vignettes, and blog posts. The book will consolidate best practices, examples, and explanations into a single structured, accessible resource.
+
+Over six months (Dec 2025–May 2026), the project will:
+- Set up infrastructure (GitHub/Quarto repo, CI/CD, license, domain).
+- Conduct a community survey to refine scope and priorities.
+- Draft and publish at least ten substantive chapters with reproducible code.
+- Publicly release a complete first draft.
+- Establish an editorial board and governance model to support future contributions.
+
+Success will be measured by delivery of milestones, publication of ≥10 chapters, ≥50 survey responses, ≥3 merged community contributions, and a functioning editorial board.
+
+The outcome will be a living, sustainable resource that strengthens R's role in modern AI and equips analysts, data scientists, and educators to use LLMs effectively. After the funded phase, hosting is cost-free and governance will be community-led, ensuring long-term value without further ISC expense.
