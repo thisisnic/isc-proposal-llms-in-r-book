@@ -4,9 +4,11 @@
 
 My proposal is to write a free online book on LLMs in R.  It will address the problem by providing a centralised location where people can find resources to help learn about the topic.  The benefits to the R community is the ability to quickly upskill in an area which is moving quickly and is broad in nature.
 
-The book will prioritise making concepts accessible to readers by employing educational tactics such as using laddering to build complex ideas one piece at a time, avoiding jargon and carefully defining it where necessary, and using metaphors to break ideas down.  The focus would be on avoiding unnecessary complexity while also equipping the reader with the relevant information to learn independently.
+The book will prioritise making concepts accessible to readers by employing educational tactics such as using laddering to build complex ideas one piece at a time, avoiding jargon and carefully defining it where it is necessary, and using metaphors to break ideas down. The focus would be on avoiding unnecessary complexity while also equipping the reader with the relevant information to learn independently.
 
 The book would take a problem-oriented approach, starting from the kinds of problems R users face when working with LLMs, and then discussing resources and solutions.
+
+It will also discuss the ethics, for example, debated around model generation, environmental impact, and how to structure work to reduce cost and environmental impact.
 
 This kind of resource is unlikely to be created via the traditional means of publishing a physical book, due to the speed of change in the LLMs/AI space at the moment.  Creating this as an online resource means that there is scope to quickly update content, as new technologies and ideas emerge.
 

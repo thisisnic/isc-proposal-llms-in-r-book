@@ -12,18 +12,7 @@ are proposed.
 
 ## Project team
 
-Nic Crane is an open source maintainer and holds a PhD in Applied Social Statistics from Lancaster University.  Nic recently co-authored "Scaling Up with R and Apache Arrow", available online at <arrowrbook.com> and published by CRC Press in July 2025.  Nic has a passion for teaching, having taught "introduction to R workshops" to hundreds of learners earlier in their career while a consultant at Mango Solutions.  Nic also has previously developed an online course on package development for Data Camp, and delivered in-person workshops at Posit Conf in 2023 and 2024, with excellent learner feedback on the content and accessibility of course materials.  Nic's experience in authoring online R books, as well as developing educational materials makes them well-suited to complete this project.
-
-
-
-
-
-<!--
-Who are the people responsible for actually delivering the project if
-the proposal gets accepted and are already signed up and rearing to
-go? Briefly describe all participants and the skills they will bring
-to the project.
--->
+Nic Crane is an open source maintainer and holds a PhD in Applied Social Statistics from Lancaster University.  Nic recently co-authored "Scaling Up with R and Apache Arrow", available online at arrowrbook.com and published by CRC Press in July 2025. Nic has a passion for teaching, having taught "introduction to R workshops" to hundreds of learners earlier in their career while a consultant at Mango Solutions. Nic also has previously developed an online course on package development for Data Camp, and delivered in-person workshops at Posit Conf in 2023 and 2024, with excellent learner feedback on the content and accessibility of course materials.  Nic's experience in authoring online R books, as well as developing educational materials makes them well-suited to lead this project.
 
 ## Contributors
 

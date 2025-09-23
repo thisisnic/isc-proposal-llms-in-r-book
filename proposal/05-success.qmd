@@ -14,11 +14,11 @@ Success means delivering a public, freely available book website on LLMs in R th
 
 Success could be measured in the following key areas:
 
-1. Milestone completion: Each deliverable in the six-milestone plan achieved on schedule.
+1. Milestone completion: Deliverables in the six-milestone plan achieved on schedule.
 2. Content published: At least 10 complete chapters live online by April 2026.
 3. Community engagement: Minimum of 100 survey responses; ≥3 community PRs merged by project end.
 4. Governance established: Editorial board of at least 3 members active by May 2026, with review process tested.
-5. Reach/visibility: Website traffic metrics and engagement on announcement posts; at least one R Consortium blog post published and ≥1 conference submission made.
+5. Reach/visibility: Website traffic metrics and engagement on announcement posts; two R Consortium blog posts published and ≥1 conference submission made.
 
 ## Future work
 

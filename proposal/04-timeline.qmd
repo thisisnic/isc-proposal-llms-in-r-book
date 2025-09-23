@@ -5,6 +5,7 @@
 ### Admininstrative tasks
 
 I will complete the following administrative tasks:
+
 - Creating the project repository on GitHub with appropriate license
 - Setting up the project as a Quarto project which uses GitHub actions to publish the book to GitHub pages
 - Purchasing URL for the project which will point to the published book
@@ -16,10 +17,15 @@ In the start-up phase I plan to conduct a detailed review of available resources
 ## Technical delivery
 
 Dec 31 2025 - Milestone 1: Repo created, contribution guidelines created, scope and outline finalised based on community survey
+
 Jan 31 2026 - Milestone 2: Introductory chapters published and initial publicity sought
+
 Feb 28 2026 - Milestone 3: Major content release 1
+
 Mar 31 2026 - Milestone 4: Major content release 2
+
 April 30 2026 - Milestone 5: Full first draft release
+
 May 30 2026 - Milestone 6: Editorial board established and transition to community governance
 
 ## Other aspects
@@ -38,8 +44,6 @@ I also would like to note that LLMs will not be used to write the contents this 
 
 I would like to request financial support of 24080 USD from the ISC to develop the book materials, and transition the project to a community-owned resource.
 
-For full transparency, I am about to begin a project involving writing a course on machine learning and AI for modellers in R.  As part of my preparation for this work, I am reviewing resources on LLMs in R, some of which will form the contents for the MVP delivery.  The budget and time estimates below relate only to work done above and beyond this initial preparatory work which will be completed regardless.
-
 The labour costs mentioned below use an hourly rate of $100, based on proposals for previous R Consortium sponsored projects.
 
 ### Milestone 1: Initial Setup
@@ -50,6 +54,7 @@ Three-year domain costs: $80
 Labour costs: $1,500
 
 Work and outcomes:
+
 - GitHub repository created with open license (CC0), Quarto structure, and contribution templates.
 - Domain registered and pointed to GitHub Pages.
 - Community survey completed and results analysed.
@@ -64,6 +69,7 @@ Target date: Jan 31 2026
 Labour costs: $3,500
 
 Work and outcomes:
+
 - At least two foundational chapters fully drafted and published.
 - Project site launched publicly with domain.
 - Publicity campaign run (socials + R Consortium blog post).
@@ -76,6 +82,7 @@ Target date: Feb 28 2026
 Labour costs: $5,500
 
 Work and outcomes:
+
 - 2-3 substantial chapters added
 - Editorial board established (3–5 members).
 - Contribution guidelines finalised and published.
@@ -87,6 +94,7 @@ Work and outcomes:
 Target date: Mar 31 2026 
 
 Labour costs: $5,500
+
 - 2-3 additional chapters drafted.
 - First wave of community contributions reviewed and integrated.
 - Second publicity push with highlights of community involvement.
@@ -98,6 +106,7 @@ Target date: April 30 2026
 Labour costs: $5,000
 
 Work and outcomes:
+
 - 1-2 additional chapters drafted.
 - Complete version 1 of all planned chapters online.
 - Ongoing updates based on community feedback.
