@@ -43,4 +43,5 @@ proposal has been discussed with.
 -->
 - Simon Couch, Posit (reviewed initial idea though not completed proposal due to timing constraints).
 - Initial feedback from Yanina Bellini Saibene
+- Feedback from Maëlle Salmon, ROpenSci
 

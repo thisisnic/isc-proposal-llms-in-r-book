@@ -5,7 +5,7 @@
 Success means delivering a public, freely available book website on LLMs in R that includes:
 
 - A clear outline and scope of the book agreed through community input.
-- At least 10 substantive chapters covering introductory through intermediate use cases.
+- At least 10 chapters published.
 - Working CI/CD pipeline.
 - An editorial board in place and contribution guidelines published.
 - A governance model and roadmap documented, ensuring the project can continue after the initial period without further direct funding.
