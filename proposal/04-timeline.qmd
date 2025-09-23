@@ -40,6 +40,8 @@ I would like to request financial support of 24080 USD from the ISC to develop t
 
 For full transparency, I am about to begin a project involving writing a course on machine learning and AI for modellers in R.  As part of my preparation for this work, I am reviewing resources on LLMs in R, some of which will form the contents for the MVP delivery.  The budget and time estimates below relate only to work done above and beyond this initial preparatory work which will be completed regardless.
 
+The labour costs mentioned below use an hourly rate of $100, based on proposals for previous R Consortium sponsored projects.
+
 ### Milestone 1: Initial Setup
 
 Target date: Dec 31 2025
