@@ -26,15 +26,17 @@ May 30 2026 - Milestone 6: Editorial board established and transition to communi
 
 The intention is to release the contents under a "Creative Commons Zero v1.0 Universal" license.  The project is to be stored on GitHub on a public repository.
 
-I will publicise the work by posting about it on LinkedIn, Mastodon, and Bluesky upon realisation of each milestone, and actively encouraging community feedback.  I will also write content to be shared quarterly on the R Consortium blog to ensure wide reach.
+I will publicise the work by posting about it on LinkedIn, Mastodon, and Bluesky upon realisation of each milestone, and actively encouraging community feedback.  I will also write content to be shared quarterly on the R Consortium blog to ensure wide reach, as well as posting on my personal blog and submitting the links to R Weekly.
 
 While I intend to develop the initial contents myself to simplify the process of getting started, once an initial draft is underway and a style guide and contribution format template has been established, I'll be opening it up to community contributions.  Clear templates and guidance will be established, and I'll solicit input from members of the community on how to best govern this.
 
 I also intend to submit a talk to major R conferences like UseR! 2026 on the process of establishing the book and growing a community around it.  I am open to feedback on other relevant avenues too.
 
+I also would like to note that LLMs will not be used to write the contents this book - human understanding and reasoning is key to writing materials which are genuinely useful to others and maintaining a consistent tone.  Any use of LLMs will solely be for ensuring conformance to defined principles (e.g. lack of use of jargon, readability) and checking for grammar/spelling.
+
 ## Budget & funding plan
 
-I would like to request financial support of 16080 USD from the ISC to develop the book materials, and transition the project to a community-owned resource.
+I would like to request financial support of 24080 USD from the ISC to develop the book materials, and transition the project to a community-owned resource.
 
 For full transparency, I am about to begin a project involving writing a course on machine learning and AI for modellers in R.  As part of my preparation for this work, I am reviewing resources on LLMs in R, some of which will form the contents for the MVP delivery.  The budget and time estimates below relate only to work done above and beyond this initial preparatory work which will be completed regardless.
 
@@ -57,7 +59,7 @@ Work and outcomes:
 
 Target date: Jan 31 2026 
 
-Labour costs: $2,500
+Labour costs: $3,500
 
 Work and outcomes:
 - At least two foundational chapters fully drafted and published.
@@ -69,7 +71,7 @@ Work and outcomes:
 
 Target date: Feb 28 2026
 
-Labour costs: $3,500
+Labour costs: $5,500
 
 Work and outcomes:
 - 2-3 substantial chapters added
@@ -82,7 +84,7 @@ Work and outcomes:
 
 Target date: Mar 31 2026 
 
-Labour costs: $3,500
+Labour costs: $5,500
 - 2-3 additional chapters drafted.
 - First wave of community contributions reviewed and integrated.
 - Second publicity push with highlights of community involvement.
@@ -91,7 +93,7 @@ Labour costs: $3,500
 
 Target date: April 30 2026
 
-Labour costs: $3,000
+Labour costs: $5,000
 
 Work and outcomes:
 - 1-2 additional chapters drafted.
@@ -102,7 +104,7 @@ Work and outcomes:
 
 Target date: May 30 2026
 
-Labour costs: $2,000
+Labour costs: $3,000
 
 Work and outcomes:
 - Ongoing updates based on community feedback.
