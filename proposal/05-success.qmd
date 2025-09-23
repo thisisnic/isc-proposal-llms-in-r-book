@@ -25,6 +25,6 @@ Success could be measured in the following key areas:
 After the funded phase, the book can be extended by:
 
 - Adding new chapters as R packages evolve or new methods emerge.
-- Translating key chapters into other languages to broaden reach.
+- Translating the book into other languages to broaden reach.
 - Using the book as a base for workshops, tutorials, or course materials.
 - Maintaining an open contribution model so the community can update, refine, and extend content long term.
