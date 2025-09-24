@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Nic Crane">
-<meta name="dcterms.date" content="2025-09-23">
+<meta name="dcterms.date" content="2025-09-24">
 
 <title>LLMs in R Book</title>
 <style>
@@ -2192,7 +2192,7 @@ vertical-align: -.125em;
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2025-09-23</p>
+      <p class="date">2025-09-24</p>
     </div>
   </div>
   
@@ -2261,9 +2261,10 @@ proposal has been discussed with.
 <section id="the-problem" class="level1">
 <h1>The Problem</h1>
 <p>LLMs and AI are having a huge impact on software engineering and data science, and the tools available, model capabilities, and advice is rapidly changing. Guidance on effective use of the available tools is scattered across difference locations, such as model vendor guidance, R package vignettes, and blog posts by community members.</p>
-<p>While existing resources provide valuable solution-oriented guidance on topics like how to use specific functions and packages, R users are left without a clear framework for understanding the problem space. This involves decisions about whether and when to use LLMs; for example, in using them to explain results to stakeholders, embedding code in analysis pipelines while maintaining data privacy, and generating R code.</p>
+<p>While existing resources provide valuable solution-oriented guidance on topics, such as how to use specific functions and packages, R users are left without a clear framework for understanding the problem space. This involves decisions about whether and when to use LLMs; for example, in using them to explain results to stakeholders, embedding code in analysis pipelines while maintaining data privacy, and generating R code.</p>
 <p>As a result, users must piece together knowledge from multiple sources, with no obvious place to start. There is real risk of misapplying methods, and wasting time and effort. The problem exists for many R users including data scientists, analysts, and educators who want to integrate LLMs into analysis, teaching, and tooling.</p>
-<p>This problem could be solved by consolidating best practices, examples, and guidance into a single structured resource. This would give R users confidence in having a reliable foundation for experimenting with LLMs and strengthen R’s position as a community invested in open, inclusive and responsible use of technology.</p>
+<p>This problem could be solved by consolidating best practices, explanations, and guidance into a single structured resource, with further links to other resources. This would give R users confidence in having a reliable foundation for experimenting with LLMs and strengthen R’s position as a community invested in open, inclusive and responsible use of technology.</p>
+<p>There is some existing work in this space, such as <a href="https://luisdva.github.io/llmsr-book/">Luis D. Verde Arregoitia’s guide to tooling for LLMs in R</a>, but this focuses on available tools rather than concepts.</p>
 <p>Due to the speed at which things are moving in LLMs/AI, it’s unlikely that this kind of resource would be a good candidate for a permanent, static reference like a book published via a traditional publisher. Instead, the value lies in creating a living, community-oriented resource that can be updated as packages evolve, new methods emerge, and best practices shift. By structuring it as an open, ongoing work rather than a fixed text, the book can remain relevant to R users and avoid the obsolescence that traditional publications in this domain are likely to face.</p>
 </section>
 <section id="the-proposal" class="level1">
@@ -2271,8 +2272,8 @@ proposal has been discussed with.
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>My proposal is to write a free online book on LLMs in R. It will address the problem by providing a centralised location where people can find resources to help learn about the topic. The benefits to the R community is the ability to quickly upskill in an area which is moving quickly and is broad in nature.</p>
-<p>The book will prioritise making concepts accessible to readers by employing educational tactics such as using laddering to build complex ideas one piece at a time, avoiding jargon and carefully defining it where it is necessary, and using metaphors to break ideas down. The focus would be on avoiding unnecessary complexity while also equipping the reader with the relevant information to learn independently.</p>
-<p>The book would take a problem-oriented approach, starting from the kinds of problems R users face when working with LLMs, and then discussing resources and solutions.</p>
+<p>The book will prioritise making concepts accessible to readers by employing educational tactics such as using laddering to build complex ideas one piece at a time, avoiding jargon and carefully defining it where it is necessary, as well as using metaphors to break ideas down. The focus would be on avoiding unnecessary complexity while also equipping the reader with the relevant information to learn independently.</p>
+<p>The book would take a problem-oriented approach, starting from the kinds of problems R users face when working with LLMs, and then discussing resources and solutions. It will follow the <a href="https://diataxis.fr/explanation/">diataxis documentation framework’s definition of “explanation”</a> rather than “tutorial”, “how-to”, or “reference”.</p>
 <p>It will also discuss the ethics, for example, debated around model generation, environmental impact, and how to structure work to reduce cost and environmental impact.</p>
 <p>This kind of resource is unlikely to be created via the traditional means of publishing a physical book, due to the speed of change in the LLMs/AI space at the moment. Creating this as an online resource means that there is scope to quickly update content, as new technologies and ideas emerge.</p>
 </section>
@@ -2289,7 +2290,7 @@ proposal has been discussed with.
 </section>
 <section id="assumptions" class="level3">
 <h3 class="anchored" data-anchor-id="assumptions">Assumptions</h3>
-<p>One assumption is that changes in applications of LLMs won’t change so rapidly that the book would need to be entirely rewritten in the near future. However, I plan to mitigate this risk by keeping content specific enough to provide value, but high-level enough to allow for flexibility. For example, while available underlying models and their capabilities are likely to see many changes over time, methods of choosing an appropriate model to work with are less likely to see as much change.</p>
+<p>One assumption is that changes in applications of LLMs won’t change so rapidly that the book would need to be entirely rewritten in the near future. However, I plan to mitigate this risk by keeping content focused on context and explanation over how-to guidance (which already exist). For example, while available underlying models and their capabilities are likely to see many changes over time, deciding factors for choosing an appropriate model will see less change.</p>
 </section>
 <section id="external-dependencies" class="level3">
 <h3 class="anchored" data-anchor-id="external-dependencies">External dependencies</h3>
@@ -2334,8 +2335,7 @@ proposal has been discussed with.
 </section>
 <section id="budget-funding-plan" class="level2">
 <h2 class="anchored" data-anchor-id="budget-funding-plan">Budget &amp; funding plan</h2>
-<p>I would like to request financial support of 24080 USD from the ISC to develop the book materials, and transition the project to a community-owned resource.</p>
-<p>The labour costs mentioned below use an hourly rate of $100, based on proposals for previous R Consortium sponsored projects.</p>
+<p>I would like to request financial support of 24080 USD from the ISC to develop the book materials, and transition the project to a community-owned resource. The labour costs mentioned below use an hourly rate of $100, based on proposals for previous R Consortium sponsored projects.</p>
 <section id="milestone-1-initial-setup" class="level3">
 <h3 class="anchored" data-anchor-id="milestone-1-initial-setup">Milestone 1: Initial Setup</h3>
 <p>Target date: Dec 31 2025</p>
@@ -2379,6 +2379,7 @@ proposal has been discussed with.
 <h3 class="anchored" data-anchor-id="milestone-4-major-content-release-2">Milestone 4: Major content release 2</h3>
 <p>Target date: Mar 31 2026</p>
 <p>Labour costs: $5,500</p>
+<p>Work and outcomes:</p>
 <ul>
 <li>2-3 additional chapters drafted.</li>
 <li>First wave of community contributions reviewed and integrated.</li>
@@ -2400,7 +2401,11 @@ proposal has been discussed with.
 <h3 class="anchored" data-anchor-id="milestone-6-editorial-board-established-and-transition-to-community-governance">Milestone 6: Editorial board established and transition to community governance</h3>
 <p>Target date: May 30 2026</p>
 <p>Labour costs: $3,000</p>
-<p>Work and outcomes: - Ongoing updates based on community feedback. - Consistency edits across chapters (tone, formatting, terminology).</p>
+<p>Work and outcomes:</p>
+<ul>
+<li>Ongoing updates based on community feedback.</li>
+<li>Consistency edits across chapters (tone, formatting, terminology).</li>
+</ul>
 </section>
 </section>
 </section>
