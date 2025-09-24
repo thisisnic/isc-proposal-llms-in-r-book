@@ -2,11 +2,11 @@
 
 ## Overview
 
-My proposal is to write a free online book on LLMs in R.  It will address the problem by providing a centralised location where people can find resources to help learn about the topic.  The benefits to the R community is the ability to quickly upskill in an area which is moving quickly and is broad in nature.
+My proposal is to write a free online book on LLMs in R. It will address the problem by providing a centralised location where people can find resources to help learn about the topic. The benefits to the R community is the ability to quickly upskill in an area which is moving quickly and is broad in nature.
 
-The book will prioritise making concepts accessible to readers by employing educational tactics such as using laddering to build complex ideas one piece at a time, avoiding jargon and carefully defining it where it is necessary, and using metaphors to break ideas down. The focus would be on avoiding unnecessary complexity while also equipping the reader with the relevant information to learn independently.
+The book will prioritise making concepts accessible to readers by employing educational tactics such as using laddering to build complex ideas one piece at a time, avoiding jargon and carefully defining it where it is necessary, as well as using metaphors to break ideas down. The focus would be on avoiding unnecessary complexity while also equipping the reader with the relevant information to learn independently.
 
-The book would take a problem-oriented approach, starting from the kinds of problems R users face when working with LLMs, and then discussing resources and solutions.
+The book would take a problem-oriented approach, starting from the kinds of problems R users face when working with LLMs, and then discussing resources and solutions. It will follow the [diataxis documentation framework's definition of "explanation"](https://diataxis.fr/explanation/) rather than "tutorial", "how-to", or "reference".
 
 It will also discuss the ethics, for example, debated around model generation, environmental impact, and how to structure work to reduce cost and environmental impact.
 
@@ -26,7 +26,7 @@ The project will be stored in a public repository on GitHub, using Quarto to cre
 
 ### Assumptions
 
-One assumption is that changes in applications of LLMs won't change so rapidly that the book would need to be entirely rewritten in the near future.  However, I plan to mitigate this risk by keeping content specific enough to provide value, but high-level enough to allow for flexibility.  For example, while available underlying models and their capabilities are likely to see many changes over time, methods of choosing an appropriate model to work with are less likely to see as much change.
+One assumption is that changes in applications of LLMs won't change so rapidly that the book would need to be entirely rewritten in the near future.  However, I plan to mitigate this risk by keeping content focused on context and explanation over how-to guidance (which already exist).  For example, while available underlying models and their capabilities are likely to see many changes over time, deciding factors for choosing an appropriate model will see less change.
 
 ### External dependencies
 
