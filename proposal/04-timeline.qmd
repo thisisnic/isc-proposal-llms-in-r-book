@@ -4,120 +4,53 @@
 
 ### Administrative tasks
 
-I will complete the following administrative tasks:
-
-- Creating the project repository on GitHub with appropriate license
-- Setting up the project as a Quarto project which uses GitHub actions to publish the book to GitHub pages
-- Purchasing URL for the project which will point to the published book
+The project is already set up as a repository on GitHub the with appropriate license and initial GitHub Actions CI/CD enabled.  Remaining administrative tasks during start-up phase:
+  
+- purchase URL for the project which will point to the published book
+- set up additional CI jobs to check for readability etc on new pull requests
+- expand on first drafts of templates for content
 
 ### Content planning
 
-In the start-up phase I plan to conduct a detailed review of available resources, and conduct a community survey to identify key topics of most importance to the wider R community.  I will use the outcome of this stage to refine the list of high-level topics.
+In the start-up phase we plan to conduct a detailed review of available resources, and conduct a community survey to identify key topics of most importance to the wider R community.  We will use the outcome of this stage to refine the list of high-level topics and focuses.
 
 ## Technical delivery
 
-Dec 31 2025 - Milestone 1: Repo created, contribution guidelines created, scope and outline finalised based on community survey
+Dec 31 2025 - Milestone 1 -  Foundation:
+Community survey conducted and scope finalised. Infrastructure templates and contribution guidelines established. Domain registered and additional CI/CD.
 
-Jan 31 2026 - Milestone 2: Introductory chapters published and initial publicity sought
+Jan 31 2026 - Milestone 2 - Launch: 
+Initial chapters published. Public launch and community outreach initiated.
 
-Feb 28 2026 - Milestone 3: Major content release 1
+Feb 28 2026 - Milestone 3 - Community Infrastructure:
+Editorial governance established. Community contribution workflows operational. Additional content developed based on survey feedback.
 
-Mar 31 2026 - Milestone 4: Major content release 2
+Mar 31 2026 - Milestone 4 - Content Development: 
+Substantial content expansion. Community contributions integrated. Infrastructure templates documented for reuse.
 
-April 30 2026 - Milestone 5: Full first draft release
+April 30 2026 - Milestone 5 - Complete Draft:
+Comprehensive first version online. All core topics addressed per community survey.
 
-May 30 2026 - Milestone 6: Editorial board established and transition to community governance
+May 30 2026 - Milestone 6 - Community Transition:
+Editorial board fully operational. Governance model documented and transferred based on development phrase.
 
 ## Other aspects
 
-The intention is to release the contents under a "Creative Commons Attribution 4.0 International" (CC-BY) license.  The project is to be stored on GitHub on a public repository.
+We will publicise the work by posting about it on LinkedIn, Mastodon, and Bluesky upon realisation of each milestone, and actively encouraging community feedback.  We will also write content to be shared quarterly on the R Consortium blog to ensure wide reach, as well as posting on personal blogs and submitting the links to R Weekly, and submitting talks to major R conferences.
 
-I will publicise the work by posting about it on LinkedIn, Mastodon, and Bluesky upon realisation of each milestone, and actively encouraging community feedback.  I will also write content to be shared quarterly on the R Consortium blog to ensure wide reach, as well as posting on my personal blog and submitting the links to R Weekly.
-
-While I intend to develop the initial contents myself to simplify the process of getting started, once an initial draft is underway and a style guide and contribution format template has been established, I'll be opening it up to community contributions. Clear templates and guidance will be established, and I'll solicit input from members of the community on how to best govern this.
-
-I also intend to submit a talk to major R conferences like UseR! 2026 on the process of establishing the book and growing a community around it.  I am open to feedback on other relevant avenues too.
-
-I also would like to note that LLMs will not be used to write the contents this book - human understanding and reasoning is key to writing materials which are genuinely useful to others and maintaining a consistent tone.  Any use of LLMs will solely be for ensuring conformance to defined principles (e.g. lack of use of jargon, readability) and checking for grammar/spelling.
+We also would like to note that LLMs will not be used to write the contents of this book - human understanding and engagement is key to writing materials which are genuinely useful to others.  Any use of LLMs will be for peripheral tasks such as ensuring conformance to defined principles (e.g. lack of use of jargon, readability), creating templates, and checking for grammar/spelling.
 
 ## Budget & funding plan
 
-I would like to request financial support of 24080 USD from the ISC to develop the book materials, and transition the project to a community-owned resource.
-The labour costs mentioned below use an hourly rate of $100, based on proposals for previous R Consortium sponsored projects.
+We would like to request financial support of $19,080 from the ISC to develop the book materials and transition the project to a community-owned resource. The labour costs use an hourly rate of $100, based on proposals for previous R Consortium sponsored projects.
 
-### Milestone 1: Initial Setup
+| Milestone | Date | Cost |
+|-----------|------|------|
+| 1: Foundation | Dec 31 2025 | $1,580 |
+| 2: Launch | Jan 31 2026 | $3,500 |
+| 3: Community Infrastructure | Feb 28 2026 | $4,000 |
+| 4: Content Development | Mar 31 2026 | $4,000 |
+| 5: Complete Draft | April 30 2026 | $4,000 |
+| 6: Community Transition | May 30 2026 | $2,000 |
 
-Target date: Dec 31 2025
-
-Three-year domain costs: $80
-Labour costs: $1,500
-
-Work and outcomes:
-
-- GitHub repository created with open license (CC-BY), Quarto structure, and contribution templates.
-- Domain registered and pointed to GitHub Pages.
-- Community survey completed and results analysed.
-- Initial scope and outline document published.
-- Draft contribution guidelines and templates prepared (not live yet).
-
-### Milestone 2: Introductory chapters published and initial publicity sought
-
-Target date: Jan 31 2026 
-
-Labour costs: $3,500
-
-Work and outcomes:
-
-- At least two foundational chapters fully drafted and published.
-- Project site launched publicly with domain.
-- Publicity campaign run (socials + R Consortium blog post).
-- Invitation for feedback and expressions of interest in joining an editorial board.
-
-### Milestone 3: Major content release 1
-
-Target date: Feb 28 2026
-
-Labour costs: $5,500
-
-Work and outcomes:
-
-- 2-3 substantial chapters added
-- Editorial board established (3–5 members).
-- Contribution guidelines finalised and published.
-- Repository officially open for community PRs.
-- At least 1–2 external contributions merged by milestone date.
-
-### Milestone 4: Major content release 2
-
-Target date: Mar 31 2026 
-
-Labour costs: $5,500
-
-Work and outcomes:
-
-- 2-3 additional chapters drafted.
-- First wave of community contributions reviewed and integrated.
-- Second publicity push with highlights of community involvement.
-
-### Milestone 5: Full first draft release
-
-Target date: April 30 2026
-
-Labour costs: $5,000
-
-Work and outcomes:
-
-- 1-2 additional chapters drafted.
-- Complete version 1 of all planned chapters online.
-- Ongoing updates based on community feedback.
-
-### Milestone 6: Editorial board established and transition to community governance
-
-Target date: May 30 2026
-
-Labour costs: $3,000
-
-Work and outcomes:
-
-- Ongoing updates based on community feedback.
-- Consistency edits across chapters (tone, formatting, terminology).
+Total funding requested: $19,080 (includes $80 for 3-year domain registration)
