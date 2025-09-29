@@ -2206,30 +2206,20 @@ vertical-align: -.125em;
 
 <section id="executive-summary" class="level1">
 <h1>Executive Summary</h1>
-<p>This proposal requests $24,080 USD to bootstrap a free, community-owned online book on LLMs in R. LLMs are a popular topic at the moment, and both the underlying technologies and tooling in the R ecosystem are moving quickly. Reliable guidance exists, but is scattered across package documentation, vignettes, and blog posts. The book will consolidate best practices, key resources, and accessible explanations into a single structured resource.</p>
-<p>Over 6 months (Dec 2025 to May 2026), the project will:</p>
-<ul>
-<li>Set up infrastructure (GitHub/Quarto repo, CI/CD, license, domain).</li>
-<li>Conduct a community survey to refine scope and priorities.</li>
-<li>Draft and publish at least ten substantive chapters on relevant topics.</li>
-<li>Publicly release a complete first draft.</li>
-<li>Establish an editorial board and governance model to support future contributions.</li>
-</ul>
-<p>Success will be measured by delivery of milestones, publication of ≥10 chapters, ≥100 survey responses, published community contributions, a transition to community governance, and a functioning editorial board.</p>
-<p>The outcome will be a living, sustainable resource that strengthens R’s role in modern AI and leaves analysts, data scientists, and educators equipped to use LLMs effectively. After the funded phase, hosting is cost-free and governance will be community-led, ensuring long-term value without further ISC expense.</p>
+<p>This proposal requests $19,080 USD to bootstrap a free and open, community-owned online book on LLMs in R. LLMs are a popular topic at the moment, and both the underlying technologies and tooling in the R ecosystem are moving quickly. Reliable guidance exists, but is scattered across package documentation, vignettes, and blog posts. The book will consolidate best practices, key resources, and accessible explanations into a single structured resource. The outcome will be a living, sustainable resource that strengthens R’s role in modern AI and leaves analysts, data scientists, and educators equipped to use LLMs effectively. After the funded phase, hosting is cost-free and governance will be community-led, ensuring long-term value without further ISC expense.</p>
 </section>
 <section id="signatories" class="level1">
 <h1>Signatories</h1>
 <section id="project-team" class="level2">
 <h2 class="anchored" data-anchor-id="project-team">Project team</h2>
-<p>Nic Crane is an open source maintainer and holds a PhD in Applied Social Statistics from Lancaster University. Nic recently co-authored “Scaling Up with R and Apache Arrow”, available online at arrowrbook.com and published by CRC Press in July 2025. Nic has a passion for teaching, having taught “introduction to R workshops” to hundreds of learners earlier in their career while a consultant at Mango Solutions. Nic also has previously developed an online course on package development for Data Camp, and delivered in-person workshops at Posit Conf in 2023 and 2024, with excellent learner feedback on the content and accessibility of course materials. Nic’s experience in authoring online R books, as well as developing educational materials makes them well-suited to lead this project.</p>
-<p>Luis D. Verde Arregoitia holds a PhD in evolutionary biology from the University of Queensland and is a postdoctoral researcher specializing in mammalian diversity and phylogenetic comparative methods. He is an active contributor to the R community through R Weekly and has authored the guide “LLMs in R” (available at luisdva.github.io/llmsr-book/), which provides foundational documentation of available tools for integrating large language models with R workflows. Luis’s combination of research experience, R programming expertise, and prior work on LLM documentation makes him a valuable addition to this project team.</p>
+<p>Project lead and primary initial author - Nic Crane: Nic is an open source maintainer and holds a PhD in Applied Social Statistics from Lancaster University. Nic recently co-authored “Scaling Up with R and Apache Arrow”, available online at arrowrbook.com and published by CRC Press in July 2025. Nic has a passion for teaching, with a background across in-person workshops, online courses, with excellent learner feedback on the content and accessibility of course materials.</p>
+<p>Core initial contributor - Luis D. Verde Arregoitia holds a PhD in evolutionary biology from the University of Queensland and is a postdoctoral researcher specializing in mammalian diversity and phylogenetic comparative methods. He is an active contributor to the R community through R Weekly and has authored the guide “LLMs in R” (available at luisdva.github.io/llmsr-book/), which provides foundational documentation of available tools for integrating large language models with R workflows.</p>
 </section>
 <section id="contributors" class="level2">
 <h2 class="anchored" data-anchor-id="contributors">Contributors</h2>
 <ul>
-<li>Mauro Lepore (reviewed initial proposal)</li>
-<li>Christoph Scheuch (reviewed initial proposal and may become an active contributor at a later point)</li>
+<li>Mauro Lepore, associate editor at ROpenSci and software engineer at Recast</li>
+<li>Christoph Scheuch, founder of Tidy Intelligence</li>
 </ul>
 <!--
 Who are the people who have actively helped with this proposal but
@@ -2244,38 +2234,36 @@ proposal? This should include any R Consortium & ISC members who the
 proposal has been discussed with.
 -->
 <ul>
-<li>Simon Couch, Posit (reviewed initial idea though not completed proposal due to timing constraints).</li>
-<li>Initial feedback from Yanina Bellini Saibene</li>
-<li>Feedback from Maëlle Salmon, ROpenSci</li>
+<li>Simon Couch, Posit (reviewed initial idea though not complete proposal due to timing constraints)</li>
+<li>Maëlle Salmon, ROpenSci</li>
+<li>Yanina Bellini Saibene, ISC Committee Member</li>
+<li>Kirill Müller, ISC Committee Member</li>
 </ul>
 </section>
 </section>
 <section id="the-problem" class="level1">
 <h1>The Problem</h1>
-<p>LLMs and AI are having a huge impact on software engineering and data science, and the tools available, model capabilities, and advice is rapidly changing. Guidance on effective use of the available tools is scattered across difference locations, such as model vendor guidance, R package vignettes, and blog posts by community members.</p>
-<p>While existing resources provide valuable solution-oriented guidance on topics, such as how to use specific functions and packages, R users are left without a clear framework for understanding the problem space. This involves decisions about whether and when to use LLMs; for example, in using them to explain results to stakeholders, embedding code in analysis pipelines while maintaining data privacy, and generating R code.</p>
-<p>As a result, users must piece together knowledge from multiple sources, with no obvious place to start. There is real risk of misapplying methods, and wasting time and effort. The problem exists for many R users including data scientists, analysts, and educators who want to integrate LLMs into analysis, teaching, and tooling.</p>
-<p>This problem could be solved by consolidating best practices, explanations, and guidance into a single structured resource, with further links to other resources. This would give R users confidence in having a reliable foundation for experimenting with LLMs and strengthen R’s position as a community invested in open, inclusive and responsible use of technology.</p>
-<p>There is some existing work in this space, such as <a href="https://luisdva.github.io/llmsr-book/">Luis D. Verde Arregoitia’s guide to tooling for LLMs in R</a>, but this focuses on available tools rather than concepts.</p>
-<p>Due to the speed at which things are moving in LLMs/AI, it’s unlikely that this kind of resource would be a good candidate for a permanent, static reference like a book published via a traditional publisher. Instead, the value lies in creating a living, community-oriented resource that can be updated as packages evolve, new methods emerge, and best practices shift. By structuring it as an open, ongoing work rather than a fixed text, the book can remain relevant to R users and avoid the obsolescence that traditional publications in this domain are likely to face.</p>
+<p>LLMs and AI are having a huge impact on software engineering and data science, and the tools available, model capabilities, and advice and guidance on their use are all rapidly changing. Much of the avaialble guidance is scattered across difference locations, such as model vendor websites, R package vignettes, and blog posts by community members.</p>
+<p>Existing resources provide valuable solution-oriented information, such as how to use specific functions and packages, but R users are left without a clear framework for understanding the wider problem space. As a result, users must piece together knowledge from multiple sources, with no obvious place to start, risking misapplying methods and wasting time and effort. The problem exists for many R users including data scientists, analysts, and educators who want to integrate LLMs into analysis, teaching, and tooling.</p>
+<p>This problem could be solved by consolidating best practices, explanations, and guidance into a single structured resource, with further links to other resources, and clear structure for governance and community contribution. There is some existing work in this space, such as <a href="https://luisdva.github.io/llmsr-book/">Luis D. Verde Arregoitia’s guide to tooling for LLMs in R</a>, but this focuses on available tools rather than concepts or context.</p>
+<p>It’s unlikely that this kind of resource would be a good candidate for a permanent, static reference like a book published via a traditional publisher, and value lies in creating a living, community-oriented resource that can be updated as packages evolve, new methods emerge, and best practices shift, so it can remain relevant.</p>
 <p>This approach aligns with successful R Consortium-funded social infrastructure projects, including translation and internationalisation efforts that have strengthened community accessibility, and educational initiatives that have built lasting knowledge resources for the R ecosystem. Like these precedents, this project prioritises sustainable, community-owned infrastructure over static deliverables.</p>
 </section>
 <section id="the-proposal" class="level1">
 <h1>The proposal</h1>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>My proposal is to write a free online book on LLMs in R. It will address the problem by providing a centralised location where people can find resources to help learn about the topic. The benefits to the R community is the ability to quickly upskill in an area which is moving quickly and is broad in nature.</p>
+<p>The proposal is to write a free online book about LLMs in R. It will address the problem by providing a centralised location where people can find resources to help learn about the topic. The benefits to the R community is the ability to quickly upskill in an area which is moving quickly and is broad in nature.</p>
 <p>The book will prioritise making concepts accessible to readers by employing educational tactics such as using laddering to build complex ideas one piece at a time, avoiding jargon and carefully defining it where it is necessary, as well as using metaphors to break ideas down. The focus would be on avoiding unnecessary complexity while also equipping the reader with the relevant information to learn independently.</p>
-<p>The book would take a problem-oriented approach, starting from the kinds of problems R users face when working with LLMs, and then discussing resources and solutions. It will follow the <a href="https://diataxis.fr/explanation/">diataxis documentation framework’s definition of “explanation”</a> rather than “tutorial”, “how-to”, or “reference”.</p>
-<p>It will also discuss the ethics, for example, debated around model generation, environmental impact, and how to structure work to reduce cost and environmental impact.</p>
+<p>The book would take a problem-oriented approach, starting from the kinds of problems R users face when working with LLMs, and then discussing resources and solutions. It will follow the <a href="https://diataxis.fr/explanation/">diataxis documentation framework’s definition of “explanation”</a> rather than “tutorial”, “how-to”, or “reference”, and so avoid duplicating existing resources.</p>
+<p>It will include discussion of the ethics, for example, debates around model generation, environmental impact, and how to structure work to reduce cost and environmental impact.</p>
 <p>This kind of resource is unlikely to be created via the traditional means of publishing a physical book, due to the speed of change in the LLMs/AI space at the moment. Creating this as an online resource means that there is scope to quickly update content, as new technologies and ideas emerge.</p>
 </section>
 <section id="detail" class="level2">
 <h2 class="anchored" data-anchor-id="detail">Detail</h2>
 <section id="social-infrastructure" class="level3">
 <h3 class="anchored" data-anchor-id="social-infrastructure">Social Infrastructure</h3>
-<!-- TODO: rephrase -->
-<p>The project represents a critical social infrastructure investment in the R community’s capacity to effectively engage with AI tech. Like translation efforts, educational initiatives, and documentation frameworks previously funded by the ISC, this book will establish foundational knowledge systems that enable broader community participation. The project goes beyond content creation to build reusable community infrastructure: standardised contribution processes, editorial governance models, and sustainable maintenance frameworks that can be adapted by other R community projects. By consolidating fragmented knowledge into a structured, community-owned resource, this project creates intellectual infrastructure that strengthens R’s position in the evolving AI landscape while establishing reusable governance and contribution frameworks for future community projects.</p>
+<p>This project is an investment in the R community’s ability to engage with AI and LLM technologies. Like past ISC-funded work on translation, education, and documentation, it will create shared knowledge that lowers barriers to participation. Beyond producing a book, the project will set up reusable infrastructure: clear contribution processes, an editorial model, and a plan for long-term maintenance. By pulling together scattered expertise into a single, community-owned resource, it will strengthen R’s role in the AI/LLM landscape while providing governance and contribution patterns other projects can adapt.</p>
 </section>
 <section id="minimum-viable-product" class="level3">
 <h3 class="anchored" data-anchor-id="minimum-viable-product">Minimum Viable Product</h3>
@@ -2299,11 +2287,11 @@ proposal has been discussed with.
 </section>
 <section id="assumptions" class="level3">
 <h3 class="anchored" data-anchor-id="assumptions">Assumptions</h3>
-<p>One assumption is that changes in applications of LLMs won’t change so rapidly that the book would need to be entirely rewritten in the near future. However, I plan to mitigate this risk by keeping content focused on context and explanation over how-to guidance (which already exist). For example, while available underlying models and their capabilities are likely to see many changes over time, deciding factors for choosing an appropriate model will see less change.</p>
+<p>One assumption is that changes in applications of LLMs won’t change so rapidly that the book would need to be entirely rewritten in the near future. This risk is mitigated in part by keeping content focused on context and explanation over how-to guidance (which already exist). For example, while available underlying models and their capabilities are likely to see many changes over time, deciding factors for choosing an appropriate model will see less change.</p>
 </section>
 <section id="external-dependencies" class="level3">
 <h3 class="anchored" data-anchor-id="external-dependencies">External dependencies</h3>
-<p>GitHub Actions to build the book. Various R packages for working with LLMs in R.</p>
+<p>The project relies on GitHub Actions for automated builds and on existing R packages that provide LLM functionality.</p>
 </section>
 </section>
 </section>
@@ -2313,144 +2301,96 @@ proposal has been discussed with.
 <h2 class="anchored" data-anchor-id="start-up-phase">Start-up phase</h2>
 <section id="administrative-tasks" class="level3">
 <h3 class="anchored" data-anchor-id="administrative-tasks">Administrative tasks</h3>
-<p>I will complete the following administrative tasks:</p>
+<p>The project is already set up as a repository on GitHub the with appropriate license and initial GitHub Actions CI/CD enabled. Remaining administrative tasks during start-up phase:</p>
 <ul>
-<li>Creating the project repository on GitHub with appropriate license</li>
-<li>Setting up the project as a Quarto project which uses GitHub actions to publish the book to GitHub pages</li>
-<li>Purchasing URL for the project which will point to the published book</li>
+<li>purchase URL for the project which will point to the published book</li>
+<li>set up additional CI jobs to check for readability etc on new pull requests</li>
+<li>expand on first drafts of templates for content</li>
 </ul>
 </section>
 <section id="content-planning" class="level3">
 <h3 class="anchored" data-anchor-id="content-planning">Content planning</h3>
-<p>In the start-up phase I plan to conduct a detailed review of available resources, and conduct a community survey to identify key topics of most importance to the wider R community. I will use the outcome of this stage to refine the list of high-level topics.</p>
+<p>In the start-up phase we plan to conduct a detailed review of available resources, and conduct a community survey to identify key topics of most importance to the wider R community. We will use the outcome of this stage to refine the list of high-level topics and focuses.</p>
 </section>
 </section>
 <section id="technical-delivery" class="level2">
 <h2 class="anchored" data-anchor-id="technical-delivery">Technical delivery</h2>
-<p>Dec 31 2025 - Milestone 1: Repo created, contribution guidelines created, scope and outline finalised based on community survey</p>
-<p>Jan 31 2026 - Milestone 2: Introductory chapters published and initial publicity sought</p>
-<p>Feb 28 2026 - Milestone 3: Major content release 1</p>
-<p>Mar 31 2026 - Milestone 4: Major content release 2</p>
-<p>April 30 2026 - Milestone 5: Full first draft release</p>
-<p>May 30 2026 - Milestone 6: Editorial board established and transition to community governance</p>
+<p>Dec 31 2025 - Milestone 1 - Foundation: Community survey conducted and scope finalised. Infrastructure templates and contribution guidelines established. Domain registered and additional CI/CD.</p>
+<p>Jan 31 2026 - Milestone 2 - Launch: Initial chapters published. Public launch and community outreach initiated.</p>
+<p>Feb 28 2026 - Milestone 3 - Community Infrastructure: Editorial governance established. Community contribution workflows operational. Additional content developed based on survey feedback.</p>
+<p>Mar 31 2026 - Milestone 4 - Content Development: Substantial content expansion. Community contributions integrated. Infrastructure templates documented for reuse.</p>
+<p>April 30 2026 - Milestone 5 - Complete Draft: Comprehensive first version online. All core topics addressed per community survey.</p>
+<p>May 30 2026 - Milestone 6 - Community Transition: Editorial board fully operational. Governance model documented and transferred based on development phrase.</p>
 </section>
 <section id="other-aspects" class="level2">
 <h2 class="anchored" data-anchor-id="other-aspects">Other aspects</h2>
-<p>The intention is to release the contents under a “Creative Commons Attribution 4.0 International” (CC-BY) license. The project is to be stored on GitHub on a public repository.</p>
-<p>I will publicise the work by posting about it on LinkedIn, Mastodon, and Bluesky upon realisation of each milestone, and actively encouraging community feedback. I will also write content to be shared quarterly on the R Consortium blog to ensure wide reach, as well as posting on my personal blog and submitting the links to R Weekly.</p>
-<p>While I intend to develop the initial contents myself to simplify the process of getting started, once an initial draft is underway and a style guide and contribution format template has been established, I’ll be opening it up to community contributions. Clear templates and guidance will be established, and I’ll solicit input from members of the community on how to best govern this.</p>
-<p>I also intend to submit a talk to major R conferences like UseR! 2026 on the process of establishing the book and growing a community around it. I am open to feedback on other relevant avenues too.</p>
-<p>I also would like to note that LLMs will not be used to write the contents this book - human understanding and reasoning is key to writing materials which are genuinely useful to others and maintaining a consistent tone. Any use of LLMs will solely be for ensuring conformance to defined principles (e.g. lack of use of jargon, readability) and checking for grammar/spelling.</p>
+<p>We will publicise the work by posting about it on LinkedIn, Mastodon, and Bluesky upon realisation of each milestone, and actively encouraging community feedback. We will also write content to be shared quarterly on the R Consortium blog to ensure wide reach, as well as posting on personal blogs and submitting the links to R Weekly, and submitting talks to major R conferences.</p>
+<p>We also would like to note that LLMs will not be used to write the contents of this book - human understanding and engagement is key to writing materials which are genuinely useful to others. Any use of LLMs will be for peripheral tasks such as ensuring conformance to defined principles (e.g. lack of use of jargon, readability), creating templates, and checking for grammar/spelling.</p>
 </section>
 <section id="budget-funding-plan" class="level2">
 <h2 class="anchored" data-anchor-id="budget-funding-plan">Budget &amp; funding plan</h2>
-<p>I would like to request financial support of 24080 USD from the ISC to develop the book materials, and transition the project to a community-owned resource. The labour costs mentioned below use an hourly rate of $100, based on proposals for previous R Consortium sponsored projects.</p>
-<section id="milestone-1-initial-setup" class="level3">
-<h3 class="anchored" data-anchor-id="milestone-1-initial-setup">Milestone 1: Initial Setup</h3>
-<p>Target date: Dec 31 2025</p>
-<p>Three-year domain costs: $80 Labour costs: $1,500</p>
-<p>Work and outcomes:</p>
-<ul>
-<li>GitHub repository created with open license (CC-BY), Quarto structure, and contribution templates.</li>
-<li>Domain registered and pointed to GitHub Pages.</li>
-<li>Community survey completed and results analysed.</li>
-<li>Initial scope and outline document published.</li>
-<li>Draft contribution guidelines and templates prepared (not live yet).</li>
-<li>Initial MVP delivery</li>
-</ul>
-</section>
-<section id="milestone-2-introductory-chapters-published-and-initial-publicity-sought" class="level3">
-<h3 class="anchored" data-anchor-id="milestone-2-introductory-chapters-published-and-initial-publicity-sought">Milestone 2: Introductory chapters published and initial publicity sought</h3>
-<p>Target date: Jan 31 2026</p>
-<p>Labour costs: $3,500</p>
-<p>Work and outcomes:</p>
-<ul>
-<li>At least two foundational chapters fully drafted and published.</li>
-<li>Project site launched publicly with domain.</li>
-<li>Publicity campaign run (socials + R Consortium blog post).</li>
-<li>Invitation for feedback and expressions of interest in joining an editorial board.</li>
-</ul>
-</section>
-<section id="milestone-3-major-content-release-1" class="level3">
-<h3 class="anchored" data-anchor-id="milestone-3-major-content-release-1">Milestone 3: Major content release 1</h3>
-<p>Target date: Feb 28 2026</p>
-<p>Labour costs: $5,500</p>
-<p>Work and outcomes:</p>
-<ul>
-<li>2-3 substantial chapters added</li>
-<li>Editorial board established (3–5 members).</li>
-<li>Contribution guidelines finalised and published.</li>
-<li>Repository officially open for community PRs.</li>
-<li>At least 1–2 external contributions merged by milestone date.</li>
-</ul>
-</section>
-<section id="milestone-4-major-content-release-2" class="level3">
-<h3 class="anchored" data-anchor-id="milestone-4-major-content-release-2">Milestone 4: Major content release 2</h3>
-<p>Target date: Mar 31 2026</p>
-<p>Labour costs: $5,500</p>
-<p>Work and outcomes:</p>
-<ul>
-<li>2-3 additional chapters drafted.</li>
-<li>First wave of community contributions reviewed and integrated.</li>
-<li>Second publicity push with highlights of community involvement.</li>
-</ul>
-</section>
-<section id="milestone-5-full-first-draft-release" class="level3">
-<h3 class="anchored" data-anchor-id="milestone-5-full-first-draft-release">Milestone 5: Full first draft release</h3>
-<p>Target date: April 30 2026</p>
-<p>Labour costs: $5,000</p>
-<p>Work and outcomes:</p>
-<ul>
-<li>1-2 additional chapters drafted.</li>
-<li>Complete version 1 of all planned chapters online.</li>
-<li>Ongoing updates based on community feedback.</li>
-</ul>
-</section>
-<section id="milestone-6-editorial-board-established-and-transition-to-community-governance" class="level3">
-<h3 class="anchored" data-anchor-id="milestone-6-editorial-board-established-and-transition-to-community-governance">Milestone 6: Editorial board established and transition to community governance</h3>
-<p>Target date: May 30 2026</p>
-<p>Labour costs: $3,000</p>
-<p>Work and outcomes:</p>
-<ul>
-<li>Ongoing updates based on community feedback.</li>
-<li>Consistency edits across chapters (tone, formatting, terminology).</li>
-</ul>
-</section>
+<p>We would like to request financial support of $19,080 from the ISC to develop the book materials and transition the project to a community-owned resource. The labour costs use an hourly rate of $100, based on proposals for previous R Consortium sponsored projects.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Milestone</th>
+<th>Date</th>
+<th>Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1: Foundation</td>
+<td>Dec 31 2025</td>
+<td>$1,580</td>
+</tr>
+<tr class="even">
+<td>2: Launch</td>
+<td>Jan 31 2026</td>
+<td>$3,500</td>
+</tr>
+<tr class="odd">
+<td>3: Community Infrastructure</td>
+<td>Feb 28 2026</td>
+<td>$4,000</td>
+</tr>
+<tr class="even">
+<td>4: Content Development</td>
+<td>Mar 31 2026</td>
+<td>$4,000</td>
+</tr>
+<tr class="odd">
+<td>5: Complete Draft</td>
+<td>April 30 2026</td>
+<td>$4,000</td>
+</tr>
+<tr class="even">
+<td>6: Community Transition</td>
+<td>May 30 2026</td>
+<td>$2,000</td>
+</tr>
+</tbody>
+</table>
+<p>Total funding requested: $19,080 (includes $80 for 3-year domain registration)</p>
 </section>
 </section>
 <section id="success" class="level1">
 <h1>Success</h1>
 <section id="definition-of-done" class="level2">
 <h2 class="anchored" data-anchor-id="definition-of-done">Definition of done</h2>
-<p>Success means delivering a public, freely available book website on LLMs in R that includes:</p>
 <ul>
-<li>A clear outline and scope of the book agreed through community input.</li>
-<li>At least 10 chapters published.</li>
-<li>Working CI/CD pipeline.</li>
-<li>An editorial board in place and contribution guidelines published.</li>
-<li>A governance model and roadmap documented, ensuring the project can continue after the initial period without further direct funding.</li>
+<li>Success means delivering a public, freely available book website on LLMs in R that includes a clear outline and scope of the book agreed through community input, a working CI/CD pipeline, an editorial board in place and contribution guidelines published.</li>
 </ul>
 </section>
 <section id="measuring-success" class="level2">
 <h2 class="anchored" data-anchor-id="measuring-success">Measuring success</h2>
-<p>Success could be measured in the following key areas:</p>
-<ol type="1">
-<li>Milestone completion: Deliverables in the six-milestone plan achieved on schedule.</li>
-<li>Content published: At least 10 complete chapters live online by April 2026.</li>
-<li>Community engagement: Minimum of 100 survey responses; ≥3 community PRs merged by project end.</li>
-<li>Governance established: Editorial board of at least 3 members active by May 2026, with review process tested.</li>
-<li>Reach/visibility: Website traffic metrics and engagement on announcement posts; two R Consortium blog posts published and ≥1 conference submission made.</li>
-</ol>
+<ul>
+<li>Traffic to book webpage and number of contributors is steadily increasing.</li>
+</ul>
 </section>
 <section id="future-work" class="level2">
 <h2 class="anchored" data-anchor-id="future-work">Future work</h2>
-<p>After the funded phase, the book can be extended by:</p>
-<ul>
-<li>Adding new chapters as R packages evolve or new methods emerge.</li>
-<li>Translating the book into other languages to broaden reach.</li>
-<li>Using the book as a base for workshops, tutorials, or course materials.</li>
-<li>Maintaining an open contribution model so the community can update, refine, and extend content long term.</li>
-</ul>
+<p>After the funded phase, the book can be extended by adding new chapters as R packages evolve or new methods emerge, translating the book into other languages to broaden reach, using the book as a base for workshops, tutorials, or course materials, and maintaining an open contribution model so the community can update, refine, and extend content long term.</p>
 <div class="refs">
 
 </div>
