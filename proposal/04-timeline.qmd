@@ -59,7 +59,6 @@ Work and outcomes:
 - Community survey completed and results analysed.
 - Initial scope and outline document published.
 - Draft contribution guidelines and templates prepared (not live yet).
-- Initial MVP delivery
 
 ### Milestone 2: Introductory chapters published and initial publicity sought
 
