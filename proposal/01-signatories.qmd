@@ -2,14 +2,14 @@
 
 ## Project team
 
-Nic Crane is an open source maintainer and holds a PhD in Applied Social Statistics from Lancaster University.  Nic recently co-authored "Scaling Up with R and Apache Arrow", available online at arrowrbook.com and published by CRC Press in July 2025. Nic has a passion for teaching, having taught "introduction to R workshops" to hundreds of learners earlier in their career while a consultant at Mango Solutions. Nic also has previously developed an online course on package development for Data Camp, and delivered in-person workshops at Posit Conf in 2023 and 2024, with excellent learner feedback on the content and accessibility of course materials.  Nic's experience in authoring online R books, as well as developing educational materials makes them well-suited to lead this project.
+Project lead and primary initial author - Nic Crane: Nic is an open source maintainer and holds a PhD in Applied Social Statistics from Lancaster University.  Nic recently co-authored "Scaling Up with R and Apache Arrow", available online at arrowrbook.com and published by CRC Press in July 2025. Nic has a passion for teaching, with a background across in-person workshops, online courses, with excellent learner feedback on the content and accessibility of course materials.
 
-Luis D. Verde Arregoitia holds a PhD in evolutionary biology from the University of Queensland and is a postdoctoral researcher specializing in mammalian diversity and phylogenetic comparative methods. He is an active contributor to the R community through R Weekly and has authored the guide "LLMs in R" (available at luisdva.github.io/llmsr-book/), which provides foundational documentation of available tools for integrating large language models with R workflows. Luis's combination of research experience, R programming expertise, and prior work on LLM documentation makes him a valuable addition to this project team.
+Core initial contributor - Luis D. Verde Arregoitia holds a PhD in evolutionary biology from the University of Queensland and is a postdoctoral researcher specializing in mammalian diversity and phylogenetic comparative methods. He is an active contributor to the R community through R Weekly and has authored the guide "LLMs in R" (available at luisdva.github.io/llmsr-book/), which provides foundational documentation of available tools for integrating large language models with R workflows.
 
 ## Contributors
 
-- Mauro Lepore (reviewed initial proposal)
-- Christoph Scheuch (reviewed initial proposal and may become an active contributor at a later point)
+- Mauro Lepore, associate editor at ROpenSci and software engineer at Recast 
+- Christoph Scheuch, founder of Tidy Intelligence
 
 <!--
 Who are the people who have actively helped with this proposal but
@@ -22,7 +22,9 @@ Who has been given the opportunity to provide feedback on the
 proposal? This should include any R Consortium & ISC members who the
 proposal has been discussed with.
 -->
-- Simon Couch, Posit (reviewed initial idea though not completed proposal due to timing constraints).
-- Initial feedback from Yanina Bellini Saibene
-- Feedback from Maëlle Salmon, ROpenSci
+- Simon Couch, Posit (reviewed initial idea though not complete proposal due to timing constraints)
+- Maëlle Salmon, ROpenSci
+- Yanina Bellini Saibene, ISC Committee Member
+- Kirill Müller, ISC Committee Member
+
 
