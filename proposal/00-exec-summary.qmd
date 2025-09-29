@@ -1,16 +1,4 @@
 # Executive Summary
 
-This proposal requests $24,080 USD to bootstrap a free, community-owned online book on LLMs in R. 
-LLMs are a popular topic at the moment, and both the underlying technologies and tooling in the R ecosystem are moving quickly.  Reliable guidance exists, but is scattered across package documentation, vignettes, and blog posts. The book will consolidate best practices, key resources, and accessible explanations into a single structured resource.
-
-Over 6 months (Dec 2025 to May 2026), the project will:
-
-- Set up infrastructure (GitHub/Quarto repo, CI/CD, license, domain).
-- Conduct a community survey to refine scope and priorities.
-- Draft and publish at least ten substantive chapters on relevant topics.
-- Publicly release a complete first draft.
-- Establish an editorial board and governance model to support future contributions.
-
-Success will be measured by delivery of milestones, publication of ≥10 chapters, ≥100 survey responses, published community contributions, a transition to community governance, and a functioning editorial board.
-
-The outcome will be a living, sustainable resource that strengthens R's role in modern AI and leaves analysts, data scientists, and educators equipped to use LLMs effectively. After the funded phase, hosting is cost-free and governance will be community-led, ensuring long-term value without further ISC expense.
+This proposal requests $19,080 USD to bootstrap a free and open, community-owned online book on LLMs in R. 
+LLMs are a popular topic at the moment, and both the underlying technologies and tooling in the R ecosystem are moving quickly. Reliable guidance exists, but is scattered across package documentation, vignettes, and blog posts. The book will consolidate best practices, key resources, and accessible explanations into a single structured resource.  The outcome will be a living, sustainable resource that strengthens R's role in modern AI and leaves analysts, data scientists, and educators equipped to use LLMs effectively. After the funded phase, hosting is cost-free and governance will be community-led, ensuring long-term value without further ISC expense.
