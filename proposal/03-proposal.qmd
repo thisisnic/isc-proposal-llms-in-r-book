@@ -2,13 +2,13 @@
 
 ## Overview
 
-My proposal is to write a free online book on LLMs in R. It will address the problem by providing a centralised location where people can find resources to help learn about the topic. The benefits to the R community is the ability to quickly upskill in an area which is moving quickly and is broad in nature.
+The proposal is to write a free online book about LLMs in R. It will address the problem by providing a centralised location where people can find resources to help learn about the topic. The benefits to the R community is the ability to quickly upskill in an area which is moving quickly and is broad in nature.
 
 The book will prioritise making concepts accessible to readers by employing educational tactics such as using laddering to build complex ideas one piece at a time, avoiding jargon and carefully defining it where it is necessary, as well as using metaphors to break ideas down. The focus would be on avoiding unnecessary complexity while also equipping the reader with the relevant information to learn independently.
 
-The book would take a problem-oriented approach, starting from the kinds of problems R users face when working with LLMs, and then discussing resources and solutions. It will follow the [diataxis documentation framework's definition of "explanation"](https://diataxis.fr/explanation/) rather than "tutorial", "how-to", or "reference".
+The book would take a problem-oriented approach, starting from the kinds of problems R users face when working with LLMs, and then discussing resources and solutions. It will follow the [diataxis documentation framework's definition of "explanation"](https://diataxis.fr/explanation/) rather than "tutorial", "how-to", or "reference", and so avoid duplicating existing resources.
 
-It will also discuss the ethics, for example, debated around model generation, environmental impact, and how to structure work to reduce cost and environmental impact.
+It will include discussion of the ethics, for example, debates around model generation, environmental impact, and how to structure work to reduce cost and environmental impact.
 
 This kind of resource is unlikely to be created via the traditional means of publishing a physical book, due to the speed of change in the LLMs/AI space at the moment.  Creating this as an online resource means that there is scope to quickly update content, as new technologies and ideas emerge.
 
@@ -16,10 +16,7 @@ This kind of resource is unlikely to be created via the traditional means of pub
 
 ### Social Infrastructure
 
-<!-- TODO: rephrase -->
-The project represents a critical social infrastructure investment in the R community's capacity to effectively engage with AI tech.  Like translation efforts, educational initiatives, and documentation frameworks previously funded by the ISC, this book will establish foundational knowledge systems that enable broader community participation. The project goes beyond content creation to build reusable community infrastructure: standardised contribution processes, editorial governance models, and sustainable maintenance frameworks that can be adapted by other R community projects.  By consolidating fragmented knowledge into a structured, community-owned resource, this project creates intellectual infrastructure that strengthens R's position in the evolving AI landscape while establishing reusable governance and
-   contribution frameworks for future community projects.
-
+This project is an investment in the R community's ability to engage with AI and LLM technologies. Like past ISC-funded work on translation, education, and documentation, it will create shared knowledge that lowers barriers to participation. Beyond producing a book, the project will set up reusable infrastructure: clear contribution processes, an editorial model, and a plan for long-term maintenance. By pulling together scattered expertise into a single, community-owned resource, it will strengthen R's role in the AI/LLM landscape while providing governance and contribution patterns other projects can adapt.
 
 ### Minimum Viable Product
 
@@ -51,9 +48,8 @@ Beyond the book content, this project will deliver reusable community infrastruc
 
 ### Assumptions
 
-One assumption is that changes in applications of LLMs won't change so rapidly that the book would need to be entirely rewritten in the near future.  However, I plan to mitigate this risk by keeping content focused on context and explanation over how-to guidance (which already exist).  For example, while available underlying models and their capabilities are likely to see many changes over time, deciding factors for choosing an appropriate model will see less change.
+One assumption is that changes in applications of LLMs won't change so rapidly that the book would need to be entirely rewritten in the near future.  This risk is mitigated in part by keeping content focused on context and explanation over how-to guidance (which already exist). For example, while available underlying models and their capabilities are likely to see many changes over time, deciding factors for choosing an appropriate model will see less change.
 
 ### External dependencies
 
-GitHub Actions to build the book.
-Various R packages for working with LLMs in R.
+The project relies on GitHub Actions for automated builds and on existing R packages that provide LLM functionality.
