@@ -14,6 +14,13 @@ This kind of resource is unlikely to be created via the traditional means of pub
 
 ## Detail
 
+### Social Infrastructure
+
+<!-- TODO: rephrase -->
+The project represents a critical social infrastructure investment in the R community's capacity to effectively engage with AI tech.  Like translation efforts, educational initiatives, and documentation frameworks previously funded by the ISC, this book will establish foundational knowledge systems that enable broader community participation. The project goes beyond content creation to build reusable community infrastructure: standardised contribution processes, editorial governance models, and sustainable maintenance frameworks that can be adapted by other R community projects.  By consolidating fragmented knowledge into a structured, community-owned resource, this project creates intellectual infrastructure that strengthens R's position in the evolving AI landscape while establishing reusable governance and
+   contribution frameworks for future community projects.
+
+
 ### Minimum Viable Product
 
 An initial MVP would include the book repository, the chapter outlines with headings and subheading, and collated resources for each chapter.
@@ -22,7 +29,21 @@ As the approach to creating each chapter would be to create the aforementioned o
 
 ### Architecture
 
-The project will be stored in a public repository on GitHub, using Quarto to create the book, and GitHub Actions to render it.
+The project will be stored in a public repository on GitHub, using Quarto to create the book, and GitHub Actions to render it. This technical infrastructure will include:
+
+- Reusable CI/CD pipeline for community-maintained documentation projects including  Reusable GitHub Actions workflows for Quarto-based R community books, including automated testing, accessibility validation, readability score and spellchecks
+- Standardised contribution templates and review processes
+- Content freshness monitoring system - Automated CI/CD jobs that flag potentially outdated content based on package version changes, broken links, and time-based triggers
+- Editorial workflow infrastructure that can be adapted by other R community resources
+- Automated content validation and consistency checking systems
+
+### Community Infrastructure Deliverables
+
+Beyond the book content, this project will deliver reusable community infrastructure:
+- Editorial board governance model and processes
+- Contribution guidelines and templates for collaborative technical documentation that other R community projects can adopt for similar documentation efforts
+- Automated publishing and maintenance workflows
+- Community engagement and feedback collection systems
 
 ### Assumptions
 
