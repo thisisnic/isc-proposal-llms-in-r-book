@@ -30,7 +30,7 @@ May 30 2026 - Milestone 6: Editorial board established and transition to communi
 
 ## Other aspects
 
-The intention is to release the contents under a "Creative Commons Zero v1.0 Universal" license.  The project is to be stored on GitHub on a public repository.
+The intention is to release the contents under a "Creative Commons Attribution 4.0 International" (CC-BY) license.  The project is to be stored on GitHub on a public repository.
 
 I will publicise the work by posting about it on LinkedIn, Mastodon, and Bluesky upon realisation of each milestone, and actively encouraging community feedback.  I will also write content to be shared quarterly on the R Consortium blog to ensure wide reach, as well as posting on my personal blog and submitting the links to R Weekly.
 
@@ -54,7 +54,7 @@ Labour costs: $1,500
 
 Work and outcomes:
 
-- GitHub repository created with open license (CC0), Quarto structure, and contribution templates.
+- GitHub repository created with open license (CC-BY), Quarto structure, and contribution templates.
 - Domain registered and pointed to GitHub Pages.
 - Community survey completed and results analysed.
 - Initial scope and outline document published.
