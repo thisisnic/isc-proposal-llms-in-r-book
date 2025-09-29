@@ -23,9 +23,13 @@ The project represents a critical social infrastructure investment in the R comm
 
 ### Minimum Viable Product
 
-An initial MVP would include the book repository, the chapter outlines with headings and subheading, and collated resources for each chapter.
+A functional MVP will include:
+- 3-4 complete foundational chapters providing immediate value to R users
+- Working Quarto book infrastructure with CI/CD
+- Community contribution guidelines and templates
+- Live website accessible to the R community
 
-As the approach to creating each chapter would be to create the aforementioned outline for each before adding additional context, it should be trivial to deliver such an MVP with minimal effort.
+Initial planning and repository structure has already been created at https://github.com/thisisnic/llms-in-r to support rapid MVP development.
 
 ### Architecture
 
