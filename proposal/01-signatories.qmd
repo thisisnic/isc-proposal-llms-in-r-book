@@ -1,18 +1,10 @@
 # Signatories
-<!--
-This section provides the ISC with a view of the support received from
-the community for a proposal. Acceptance isn't predicated on
-popularity but community acceptance is important. Willingness to
-accept outside input is also a good marker for project delivery.
-
-An optional section would be for R-Core signatories where changes to R
-are proposed.
--->
-
 
 ## Project team
 
 Nic Crane is an open source maintainer and holds a PhD in Applied Social Statistics from Lancaster University.  Nic recently co-authored "Scaling Up with R and Apache Arrow", available online at arrowrbook.com and published by CRC Press in July 2025. Nic has a passion for teaching, having taught "introduction to R workshops" to hundreds of learners earlier in their career while a consultant at Mango Solutions. Nic also has previously developed an online course on package development for Data Camp, and delivered in-person workshops at Posit Conf in 2023 and 2024, with excellent learner feedback on the content and accessibility of course materials.  Nic's experience in authoring online R books, as well as developing educational materials makes them well-suited to lead this project.
+
+Luis D. Verde Arregoitia holds a PhD in evolutionary biology from the University of Queensland and is a postdoctoral researcher specializing in mammalian diversity and phylogenetic comparative methods. He is an active contributor to the R community through R Weekly and has authored the guide "LLMs in R" (available at luisdva.github.io/llmsr-book/), which provides foundational documentation of available tools for integrating large language models with R workflows. Luis's combination of research experience, R programming expertise, and prior work on LLM documentation makes him a valuable addition to this project team.
 
 ## Contributors
 
