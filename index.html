@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Nic Crane">
-<meta name="dcterms.date" content="2025-09-29">
+<meta name="dcterms.date" content="2025-09-30">
 
 <title>LLMs in R Book</title>
 <style>
@@ -2192,7 +2192,7 @@ vertical-align: -.125em;
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2025-09-29</p>
+      <p class="date">2025-09-30</p>
     </div>
   </div>
   
@@ -2212,8 +2212,10 @@ vertical-align: -.125em;
 <h1>Signatories</h1>
 <section id="project-team" class="level2">
 <h2 class="anchored" data-anchor-id="project-team">Project team</h2>
-<p>Project lead and primary initial author - Nic Crane: Nic is an open source maintainer and holds a PhD in Applied Social Statistics from Lancaster University. Nic recently co-authored “Scaling Up with R and Apache Arrow”, available online at arrowrbook.com and published by CRC Press in July 2025. Nic has a passion for teaching, with a background across in-person workshops, online courses, with excellent learner feedback on the content and accessibility of course materials.</p>
-<p>Core initial contributor - Luis D. Verde Arregoitia holds a PhD in evolutionary biology from the University of Queensland and is a Biodiversity Data Scientist. He is an active contributor to the R community through R Weekly and has authored the guide “LLMs in R” (available at luisdva.github.io/llmsr-book/), which provides foundational documentation of available tools for integrating large language models with R workflows.</p>
+<ul>
+<li><p>Project lead and primary initial author - Nic Crane: Nic is an open source maintainer and holds a PhD in Applied Social Statistics from Lancaster University. Nic recently co-authored “Scaling Up with R and Apache Arrow”, available online at arrowrbook.com and published by CRC Press in July 2025. Nic has a passion for teaching, with a background across in-person workshops, online courses, with excellent learner feedback on the content and accessibility of course materials.</p></li>
+<li><p>Core initial contributor - Luis D. Verde Arregoitia holds a PhD in evolutionary biology from the University of Queensland and is a Biodiversity Data Scientist. He is an active contributor to the R community through R Weekly and has authored the guide “LLMs in R” (available at luisdva.github.io/llmsr-book/), which provides foundational documentation of available tools for integrating large language models with R workflows.</p></li>
+</ul>
 </section>
 <section id="contributors" class="level2">
 <h2 class="anchored" data-anchor-id="contributors">Contributors</h2>
@@ -2243,7 +2245,7 @@ proposal has been discussed with.
 </section>
 <section id="the-problem" class="level1">
 <h1>The Problem</h1>
-<p>LLMs and AI are having a huge impact on software engineering and data science, and the tools available, model capabilities, and advice and guidance on their use are all rapidly changing. Much of the avaialble guidance is scattered across difference locations, such as model vendor websites, R package vignettes, and blog posts by community members.</p>
+<p>LLMs and AI are having a huge impact on software engineering and data science, and the tools available, model capabilities, and advice and guidance on their use are all rapidly changing. Much of the available guidance is scattered across different locations, such as model vendor websites, R package vignettes, and blog posts by community members.</p>
 <p>Existing resources provide valuable solution-oriented information, such as how to use specific functions and packages, but R users are left without a clear framework for understanding the wider problem space. As a result, users must piece together knowledge from multiple sources, with no obvious place to start, risking misapplying methods and wasting time and effort. The problem exists for many R users including data scientists, analysts, and educators who want to integrate LLMs into analysis, teaching, and tooling.</p>
 <p>This problem could be solved by consolidating best practices, explanations, and guidance into a single structured resource, with further links to other resources, and clear structure for governance and community contribution. There is some existing work in this space, such as <a href="https://luisdva.github.io/llmsr-book/">Luis D. Verde Arregoitia’s guide to tooling for LLMs in R</a>, but this focuses on available tools rather than concepts or context.</p>
 <p>It’s unlikely that this kind of resource would be a good candidate for a permanent, static reference like a book published via a traditional publisher, and value lies in creating a living, community-oriented resource that can be updated as packages evolve, new methods emerge, and best practices shift, so it can remain relevant.</p>
@@ -2253,7 +2255,7 @@ proposal has been discussed with.
 <h1>The proposal</h1>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>The proposal is to write a free online book about LLMs in R. It will address the problem by providing a centralised location where people can find resources to help learn about the topic. The benefits to the R community is the ability to quickly upskill in an area which is moving quickly and is broad in nature.</p>
+<p>The proposal is to write a free online book about LLMs in R with associated reusable social and technical infrastructure. It will address the problem by providing a centralised location where people can find resources to help learn about the topic. The benefits to the R community is the ability to quickly upskill in an area which is moving quickly and is broad in nature.</p>
 <p>The book will prioritise making concepts accessible to readers by employing educational tactics such as using laddering to build complex ideas one piece at a time, avoiding jargon and carefully defining it where it is necessary, as well as using metaphors to break ideas down. The focus would be on avoiding unnecessary complexity while also equipping the reader with the relevant information to learn independently.</p>
 <p>The book would take a problem-oriented approach, starting from the kinds of problems R users face when working with LLMs, and then discussing resources and solutions. It will follow the <a href="https://diataxis.fr/explanation/">diataxis documentation framework’s definition of “explanation”</a> rather than “tutorial”, “how-to”, or “reference”, and so avoid duplicating existing resources.</p>
 <p>It will include discussion of the ethics, for example, debates around model generation, environmental impact, and how to structure work to reduce cost and environmental impact.</p>
@@ -2267,23 +2269,22 @@ proposal has been discussed with.
 </section>
 <section id="minimum-viable-product" class="level3">
 <h3 class="anchored" data-anchor-id="minimum-viable-product">Minimum Viable Product</h3>
-<p>A functional MVP will include: - 3-4 complete foundational chapters providing immediate value to R users - Working Quarto book infrastructure with CI/CD - Community contribution guidelines and templates - Live website accessible to the R community</p>
+<p>A functional MVP will include 3-4 complete foundational chapters providing immediate value to R users, a working Quarto book infrastructure with CI/CD, community contribution guidelines and templates, and a live website accessible to the R community.</p>
 <p>Initial planning and repository structure has already been created at https://github.com/thisisnic/llms-in-r to support rapid MVP development.</p>
 </section>
 <section id="architecture" class="level3">
 <h3 class="anchored" data-anchor-id="architecture">Architecture</h3>
 <p>The project will be stored in a public repository on GitHub, using Quarto to create the book, and GitHub Actions to render it. This technical infrastructure will include:</p>
 <ul>
-<li>Reusable CI/CD pipeline for community-maintained documentation projects including Reusable GitHub Actions workflows for Quarto-based R community books, including automated testing, accessibility validation, readability score and spellchecks</li>
+<li>Reusable CI/CD pipeline for community-maintained documentation projects including Reusable GitHub Actions workflows for Quarto-based R community books, including automated testing, readability score and spellchecks</li>
 <li>Standardised contribution templates and review processes</li>
 <li>Content freshness monitoring system - Automated CI/CD jobs that flag potentially outdated content based on package version changes, broken links, and time-based triggers</li>
 <li>Editorial workflow infrastructure that can be adapted by other R community resources</li>
-<li>Automated content validation and consistency checking systems</li>
 </ul>
 </section>
 <section id="community-infrastructure-deliverables" class="level3">
 <h3 class="anchored" data-anchor-id="community-infrastructure-deliverables">Community Infrastructure Deliverables</h3>
-<p>Beyond the book content, this project will deliver reusable community infrastructure: - Editorial board governance model and processes - Contribution guidelines and templates for collaborative technical documentation that other R community projects can adopt for similar documentation efforts - Automated publishing and maintenance workflows - Community engagement and feedback collection systems</p>
+<p>Beyond the book content, this project will deliver reusable community infrastructure: editorial board governance model and processes, and contribution guidelines and templates for collaborative technical documentation that other R community projects can adopt for similar documentation efforts.</p>
 </section>
 <section id="assumptions" class="level3">
 <h3 class="anchored" data-anchor-id="assumptions">Assumptions</h3>
@@ -2320,7 +2321,7 @@ proposal has been discussed with.
 <p>Feb 28 2026 - Milestone 3 - Community Infrastructure: Editorial governance established. Community contribution workflows operational. Additional content developed based on survey feedback.</p>
 <p>Mar 31 2026 - Milestone 4 - Content Development: Substantial content expansion. Community contributions integrated. Infrastructure templates documented for reuse.</p>
 <p>April 30 2026 - Milestone 5 - Complete Draft: Comprehensive first version online. All core topics addressed per community survey.</p>
-<p>May 30 2026 - Milestone 6 - Community Transition: Editorial board fully operational. Governance model documented and transferred based on development phrase.</p>
+<p>May 30 2026 - Milestone 6 - Community Transition: Editorial board fully operational. Governance model documented and transferred.</p>
 </section>
 <section id="other-aspects" class="level2">
 <h2 class="anchored" data-anchor-id="other-aspects">Other aspects</h2>
