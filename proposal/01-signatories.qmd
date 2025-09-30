@@ -2,9 +2,9 @@
 
 ## Project team
 
-Project lead and primary initial author - Nic Crane: Nic is an open source maintainer and holds a PhD in Applied Social Statistics from Lancaster University.  Nic recently co-authored "Scaling Up with R and Apache Arrow", available online at arrowrbook.com and published by CRC Press in July 2025. Nic has a passion for teaching, with a background across in-person workshops, online courses, with excellent learner feedback on the content and accessibility of course materials.
+* Project lead and primary initial author - Nic Crane: Nic is an open source maintainer and holds a PhD in Applied Social Statistics from Lancaster University.  Nic recently co-authored "Scaling Up with R and Apache Arrow", available online at arrowrbook.com and published by CRC Press in July 2025. Nic has a passion for teaching, with a background across in-person workshops, online courses, with excellent learner feedback on the content and accessibility of course materials.
 
-Core initial contributor - Luis D. Verde Arregoitia holds a PhD in evolutionary biology from the University of Queensland and is a Biodiversity Data Scientist. He is an active contributor to the R community through R Weekly and has authored the guide "LLMs in R" (available at luisdva.github.io/llmsr-book/), which provides foundational documentation of available tools for integrating large language models with R workflows.
+* Core initial contributor - Luis D. Verde Arregoitia holds a PhD in evolutionary biology from the University of Queensland and is a Biodiversity Data Scientist. He is an active contributor to the R community through R Weekly and has authored the guide "LLMs in R" (available at luisdva.github.io/llmsr-book/), which provides foundational documentation of available tools for integrating large language models with R workflows.
 
 ## Contributors
 

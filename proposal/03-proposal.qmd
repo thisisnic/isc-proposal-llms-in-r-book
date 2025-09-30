@@ -2,7 +2,7 @@
 
 ## Overview
 
-The proposal is to write a free online book about LLMs in R. It will address the problem by providing a centralised location where people can find resources to help learn about the topic. The benefits to the R community is the ability to quickly upskill in an area which is moving quickly and is broad in nature.
+The proposal is to write a free online book about LLMs in R with associated reusable social and technical infrastructure. It will address the problem by providing a centralised location where people can find resources to help learn about the topic. The benefits to the R community is the ability to quickly upskill in an area which is moving quickly and is broad in nature.
 
 The book will prioritise making concepts accessible to readers by employing educational tactics such as using laddering to build complex ideas one piece at a time, avoiding jargon and carefully defining it where it is necessary, as well as using metaphors to break ideas down. The focus would be on avoiding unnecessary complexity while also equipping the reader with the relevant information to learn independently.
 
@@ -20,11 +20,7 @@ This project is an investment in the R community's ability to engage with AI and
 
 ### Minimum Viable Product
 
-A functional MVP will include:
-- 3-4 complete foundational chapters providing immediate value to R users
-- Working Quarto book infrastructure with CI/CD
-- Community contribution guidelines and templates
-- Live website accessible to the R community
+A functional MVP will include 3-4 complete foundational chapters providing immediate value to R users, a working Quarto book infrastructure with CI/CD, community contribution guidelines and templates, and a live website accessible to the R community.
 
 Initial planning and repository structure has already been created at https://github.com/thisisnic/llms-in-r to support rapid MVP development.
 
@@ -32,19 +28,14 @@ Initial planning and repository structure has already been created at https://gi
 
 The project will be stored in a public repository on GitHub, using Quarto to create the book, and GitHub Actions to render it. This technical infrastructure will include:
 
-- Reusable CI/CD pipeline for community-maintained documentation projects including  Reusable GitHub Actions workflows for Quarto-based R community books, including automated testing, accessibility validation, readability score and spellchecks
+- Reusable CI/CD pipeline for community-maintained documentation projects including  Reusable GitHub Actions workflows for Quarto-based R community books, including automated testing, readability score and spellchecks
 - Standardised contribution templates and review processes
 - Content freshness monitoring system - Automated CI/CD jobs that flag potentially outdated content based on package version changes, broken links, and time-based triggers
 - Editorial workflow infrastructure that can be adapted by other R community resources
-- Automated content validation and consistency checking systems
 
 ### Community Infrastructure Deliverables
 
-Beyond the book content, this project will deliver reusable community infrastructure:
-- Editorial board governance model and processes
-- Contribution guidelines and templates for collaborative technical documentation that other R community projects can adopt for similar documentation efforts
-- Automated publishing and maintenance workflows
-- Community engagement and feedback collection systems
+Beyond the book content, this project will deliver reusable community infrastructure: editorial board governance model and processes, and contribution guidelines and templates for collaborative technical documentation that other R community projects can adopt for similar documentation efforts.
 
 ### Assumptions
 

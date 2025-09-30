@@ -4,7 +4,7 @@ bibliography: references.bib
 
 # The Problem
 
-LLMs and AI are having a huge impact on software engineering and data science, and the tools available, model capabilities, and advice and guidance on their use are all rapidly changing.  Much of the avaialble guidance is scattered across difference locations, such as model vendor websites, R package vignettes, and blog posts by community members.  
+LLMs and AI are having a huge impact on software engineering and data science, and the tools available, model capabilities, and advice and guidance on their use are all rapidly changing.  Much of the available guidance is scattered across different locations, such as model vendor websites, R package vignettes, and blog posts by community members.  
 
 Existing resources provide valuable solution-oriented information, such as how to use specific functions and packages, but R users are left without a clear framework for understanding the wider problem space. As a result, users must piece together knowledge from multiple sources, with no obvious place to start, risking misapplying methods and wasting time and effort. The problem exists for many R users including data scientists, analysts, and educators who want to integrate LLMs into analysis, teaching, and tooling. 
 
